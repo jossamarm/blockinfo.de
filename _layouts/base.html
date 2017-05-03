@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="">
+
+  <title>AngularJS.DE → {{ page.title }}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+
+  {% if page.noindex %}
+  <meta name="robots" content="noindex, follow">
+  {% else %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url}}">
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/css/app.css">
+  {% include _ga.html %}
+</head>
+
+<body>
+  {% include _navigation.html %}
+
+  {{content}}
+
+  {% include _footer.html %}
+  {% include _seo_helper.html %}
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.6/bootstrap-native-v4.min.js"></script>
+</body>
+</html>

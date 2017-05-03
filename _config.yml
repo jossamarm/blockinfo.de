@@ -1,0 +1,56 @@
+title: ReactX.DE
+description: ""
+url: "https://reactx.de" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+ga_property: "UA-97181121-3"
+permalink: /artikel/:slug/
+repository_url: "https://github.com/workshops-de/reactx.de"
+ws_course_id: 17
+
+collections:
+  books:
+    output: true
+    permalink: /buecher/:path/
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: "_posts" # an empty string here means all files in the project
+    values:
+      layout: "post"
+  - scope:
+      path: "_books" # an empty string here means all files in the project
+    values:
+      layout: "chapter"
+  - scope:
+      path: "_pages" # an empty string here means all files in the project
+    values:
+      layout: "page"
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/seite/:num/'
+  title: ':title - Seite :num von :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Build settings
+markdown: kramdown
+sass:
+  style: :compressed
+  sass_dir: assets/css
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - .gitignore
+  - nginx.conf

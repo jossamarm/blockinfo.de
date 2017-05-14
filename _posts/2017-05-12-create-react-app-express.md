@@ -13,11 +13,11 @@ header_image: "/artikel/create-react-app-express/header.png"
 
 Wenn du noch nicht davon gehört hast, [Create React App](https://github.com/facebookincubator/create-react-app) ist ein unglaublicher Weg um mit React zu starten. Es wird eine Projekt-Struktur für dich erstellt, komplett vorbereitet und bereit zum starten. Du kannst die Konfiguration von Webpack und Babel auslassen und direkt mit dem Schreiben deiner App beginnen.
 
-Aber was ist, wenn deine nicht nur Frontend ist? Was, wenn du dich zu einem Backend Server verbinden musst? Auch dafür hat Create React App eine Lösung.
+Aber was ist, wenn deine App nicht nur aus Frontend besteht? Was, wenn du dich zu einem Backend Server verbinden musst? Auch dafür hat [Create React App](https://github.com/facebookincubator/create-react-app) eine Lösung.
 
-In diesem Beitrag stellen wir eine React App neben einer Express Backend App und verkabeln die Benutzeroberfläche, um einige Daten aus dem Backend zu holen.
+In diesem Beitrag bauen wir eine React App mit einem [Express](http://expressjs.com/de/) Backend App und verkabeln die Benutzeroberfläche, um einige Daten aus dem Backend zu holen.
 
-Und falls dein Backend nicht mit Express geschrieben ist, keine Sorge! Der gleiche Prozess wird auch für dich funktionieren (überspringen um zur Konfiguration der Proxy zu gehen).
+Und falls dein Backend nicht mit Express geschrieben ist, keine Sorge! Der gleiche Prozess wird auch für dich funktionieren (überspringen um zur Konfiguration der Proxy zu gehen.
 
 <!--more-->
 
@@ -38,7 +38,7 @@ Dann starte es, um die Express App zu erstellen:
 $ express react-backend     
 ```
 
-Es wird ein `react-backend Ordner entstehen. Dann stelle sicher, dass du die Abhängigkeiten installierst:
+Es wird ein `react-backend` Ordner entstehen. Dann stelle sicher, dass du die Abhängigkeiten installierst:
 
 ```shell
 $ cd react-backend 
@@ -81,23 +81,23 @@ Lass es laufen und öffne einen neuen Terminal. Beachte die `PORT` Variable: Die
 
 Du kannst die React App überall hinpacken, wo du willst. Es muss kein Unterordner der Express App sein, aber das sehen wir jetzt, um alles organisiert zu behalten.
 
-Zuerst einmal, stelle sicher, dass du `create-react-app installierst, falls es nicht schon installiert ist:
+Zuerst einmal, stelle sicher, dass du `create-react-app` installierst, falls es nicht schon installiert ist:
 
 ```shell
 $ npm install -g create-react-app
 ```
 
-Dann erstelle die React App innerhalb des react-backend Ordners: 
+Dann erstelle die React App innerhalb des `react-backend` Ordners: 
 
 ```shell
 $ create-react-app client
 ```
 
-Konfiguriere den Proxy
+## Konfiguriere den Proxy
 
 Das ist die Hauptänderung, welche es der React App ermöglicht mit dem Express Backend zu kommunizieren (oder jedem Backend).
 
-Innerhalb des Ordners der React App (`client`), öffne `package.json` (gehe sicher, dass es nicht Express’ package.json ist - es sollte Teile wie “react” und “react-scripts” haben). Unter der “scripts” Sektion füge die “proxy wie folgt ein: 
+Innerhalb des Ordners der React App (`client`), öffne `package.json` (gehe sicher, dass es nicht Express’ `package.json` ist - es sollte Teile wie “react” und “react-scripts” haben). Unter der “scripts” Sektion füge `proxy` wie folgt ein: 
 
 ```json
 "scripts": {
@@ -111,7 +111,7 @@ Innerhalb des Ordners der React App (`client`), öffne `package.json` (gehe sich
 
 Der Port (3001) in der “proxy” muss der gleiche Port sein, auf dem dein Express Server läuft.
 
-Beachte, das kann auf jeden Server verweisen. Es kann ein anderer lokales Backend in Java oder Python sein, oder es könnte ein echter Server im Internet sein. Spielt keine Rolle.
+Beachte, das kann auf jeden Server verweisen. Es kann ein anderes lokales Backend in Java oder Python sein, oder es könnte ein echter Server im Internet sein. Spielt keine Rolle.
 
 So funktionierts, jedes Mal wenn deine React App eine Anfrage auf etwas das kein statisches Asset ist (kein Bild oder CSS oder `index.html`)  anfordert, dann wird es die Anfrage an den Server, der in `“proxy”` spezifiziert ist, weiterleiten.
 
@@ -119,11 +119,11 @@ So funktionierts, jedes Mal wenn deine React App eine Anfrage auf etwas das kein
 
 Wenn das erledigt ist, starte den React Entwicklungs-Server, in dem du `npm start` (oder `yarn start`) startest.
 
-Rufe die Daten von React ab
+Rufe die Daten von React ab.
 
-Zu diesem Zeitpunkt laufen 2 Server. Express (auf Port 2001) und Create React App’s Webpacket dev Server (auf Port 3000).
+Zu diesem Zeitpunkt laufen zwei Server. Express (auf Port 2001) und Create React App’s Webpacket dev Server (auf Port 3000).
 
-Lass uns einen Anruf an den /users Endpunkt machen und sicherstellen, dass alles funktioniert.
+Lass uns `/users` aufrufen und sicherstellen, dass alles funktioniert.
 
 Öffne `client.src/App.js` und sorge dafür, dass es so aussieht:
 

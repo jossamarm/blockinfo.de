@@ -11,8 +11,7 @@ sitemap: false
         if (window.google && window.google.search) {
           return;
         }
-        // TODO: Make this configurable
-        var cx = '007941608982900491482:r7e7-yv3ix4';
+        var cx = "{{ site.custom_search_id }}";
         var gcse = document.createElement('script');
         gcse.type = 'text/javascript';
         gcse.async = true;

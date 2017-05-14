@@ -7,6 +7,7 @@ ga_property: "UA-97181121-3"
 permalink: /artikel/:slug/
 repository_url: "https://github.com/workshops-de/reactx.de"
 ws_course_id: 17
+custom_search_id: "011221661346354572919:zpf1hzv67my"
 
 collections:
   books:

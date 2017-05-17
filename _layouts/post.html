@@ -24,7 +24,9 @@ layout: base
       <div class="col-md-12 col-lg-8">
         {{ content }}
         <br>
+        {% comment %}
         {% include _author.html %}
+        {% endcomment %}
         <br>
         <p>
           <a href="{{site.repository_url}}/edit/master/{{page.path}}" target="_blank">Diesen Artikel auf GitHub verbessern</a>
@@ -33,7 +35,7 @@ layout: base
         <br>
 
         <div class="hidden-print">
-          {% include _related_articles.html %}
+          <!-- {% include _related_articles.html %} -->
         </div>
       </div>
     </div>

@@ -1,14 +1,14 @@
 ---
-title: "Internationalisierung in React"
-description: "Lerne wie du eine React App richtig internationalisiert"
+title: "Internationalisierung in ReactJS"
+description: "Lerne wie du eine ReactJS App richtig internationalisiert"
 author: "Dave Ceddia"
-slug: "internationalisierung-in-react"
+slug: "internationalisierung-in-reactjs"
 published_at: 2017-05-17 12:00:00.000000Z
 language: de
 categories: 
   - reactjs
   - tutorial
-header_image: "/artikel/internationalisierung-in-react/header.png"
+header_image: "/artikel/internationalisierung-in-reactjs/header.png"
 ---
 
 Internationalisierung ist ein großes Problem. Wenn du willst, dass deine Anwendung eine weltweite Reichweite hat, dann musst du dich mit Sprachbarrieren beschäftigen. 
@@ -21,9 +21,9 @@ Ein Grund, warum wir uns mit der Internationalisierung beschäftigten ist ganz e
 
 ### **Die Lösung: React Intl** ###
 
-Aber die Internationalisierung muss nicht schwierig sein, dank eines neuen React-Moduls. ***React Intl*** ist ein open-source Projekt von Yahoo und ein Teil von *Format.js*, einer Sammlung von JavaScript Modulen für Internationalisierung die auf der integrierten Intl API von Javascript aufbaut.
+Aber die Internationalisierung muss nicht schwierig sein, dank eines neuen ReactJS-Moduls. ***React Intl*** ist ein open-source Projekt von Yahoo und ein Teil von *Format.js*, einer Sammlung von JavaScript Modulen für Internationalisierung die auf der integrierten Intl API von Javascript aufbaut.
 
-Die *React Intl* Modul macht die Internationalisierung in React einfach, und zwar mit off-the-shelf Komponenten und einer API, die alles von der Formatierung von Strings, Daten und Zahlen bis hin zur Pluralisierung händeln kann.
+Die *React Intl* Modul macht die Internationalisierung in ReactJS einfach, und zwar mit off-the-shelf Komponenten und einer API, die alles von der Formatierung von Strings, Daten und Zahlen bis hin zur Pluralisierung händeln kann.
 Lass uns das ganze mal durchgehen.
 
 ### **Kernkonzepte** ###
@@ -51,10 +51,10 @@ Wenn du Browserify, Webpack oder Rollup benutzt, um React Intl für den Browser 
 
 
 
-## **Daten formatieren mit React Komponenten vs. Die API**
-Das Modul bietet zwei Möglichkeiten, um Strings, Nummern und Daten zu formatieren: **React Komponenten** oder eine **API**.
+## **Daten formatieren mit ReactJS Komponenten vs. Die API**
+Das Modul bietet zwei Möglichkeiten, um Strings, Nummern und Daten zu formatieren: **ReactJS Komponenten** oder eine **API**.
 
-# **React Komponente**
+# **ReactJS Komponente**
 
 ```javascript
 <FormattedMessage
@@ -91,12 +91,12 @@ Natürlich gibt es Fälle, bei denen deine einzige Möglichkeit die Nutzung eine
 
 ### **Beispielprojekt**
 
-Ein Live Beispiel zu sehen, ist die beste Art zu lernen. Für diesen Beitrag habe ich ein einfaches React-Projekt erstellt, das aus einer Haupt Header-Komponente, einer Subheader Komponente und einigen Widged-Komponenten besteht, die jeweils ihre eigenen Header und Body‘s haben.
+Ein Live Beispiel zu sehen, ist die beste Art zu lernen. Für diesen Beitrag habe ich ein einfaches ReactJS-Projekt erstellt, das aus einer Haupt Header-Komponente, einer Subheader Komponente und einigen Widged-Komponenten besteht, die jeweils ihre eigenen Header und Body‘s haben.
 
 Als erstes gehen wir den Prozess durch, in dem wir React Intl einstellen. Danach benutzen wir die Komponenten und API um Strings, Nummern, und Daten, die in den Komponenten verwendet werden, zu konvertieren. 
 
 ### **Einrichten**
-Nehmen wir an, wir haben eine bestehende React-Anwendung, von der aus wir arbeiten. Zuerst musst du das React Intl Paket installieren:
+Nehmen wir an, wir haben eine bestehende ReactJS-Anwendung, von der aus wir arbeiten. Zuerst musst du das React Intl Paket installieren:
 
 ```shell
 npm install —-save react-intl

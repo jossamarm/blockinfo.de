@@ -115,7 +115,7 @@ Beachte, das kann auf jeden Server verweisen. Es kann ein anderes lokales Backen
 
 So funktionierts, jedes Mal wenn deine ReactJS App eine Anfrage auf etwas das kein statisches Asset ist (kein Bild oder CSS oder `index.html`)  anfordert, dann wird es die Anfrage an den Server, der in `“proxy”` spezifiziert ist, weiterleiten.
 
-![Wie der Proxy funktioniert](/artikel/create-react-app-express/how-proxy-works.png)
+![Wie der Proxy funktioniert](/artikel/create-reactjs-app-express/how-proxy-works.png)
 
 Wenn das erledigt ist, starte den ReactJS Entwicklungs-Server, in dem du `npm start` (oder `yarn start`) startest.
 

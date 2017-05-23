@@ -22,6 +22,13 @@ layout: base
 
     <div class="row justify-content-md-center">
       <div class="col-md-12 col-lg-8">
+        <div id="post-feedback">
+          <span>Artikel verständlich?</span>
+          <button onclick="sendFeedback(event, 'up')">👍</button>
+          <button onclick="sendFeedback(event, 'down')">👎</button>
+          <button class="post-feedback-close" onclick="closeFeedback()">X</button>
+        </div>
+
         {{ content }}
         <br>
         {% comment %}

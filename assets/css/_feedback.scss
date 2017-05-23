@@ -1,0 +1,26 @@
+#post-feedback {
+  position: fixed;
+  background: #FFF;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 7px;
+  border-top: 2px solid #DDD;
+}
+
+#post-feedback button {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #DDD;
+  background: #EEE;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.post-feedback-close {
+  right: 5px;
+  bottom: 7px;
+  position: fixed;
+  color: #999;
+}

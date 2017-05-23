@@ -17,5 +17,28 @@
     ga('send', 'pageview');
     ga('require', 'linker');
     ga('linker:autoLink', ['workshops.de'], false, true);
+
+    var sendFeedback = function (event, str) {
+      console.log(document.body.scrollTop);
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Feedback',
+        eventAction: str,
+        eventLabel: window.location.href,
+        eventValue: document.body.scrollTop
+      });
+      event.target.parentElement.remove()
+    }
+
+    function closeFeedback() {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Feedback',
+        eventAction: 'close',
+        eventLabel: window.location.href,
+        eventValue: document.body.scrollTop
+      });
+      event.target.parentElement.remove()
+    }
   </script>
 {% endif %}

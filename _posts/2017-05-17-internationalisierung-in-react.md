@@ -1,7 +1,7 @@
 ---
 title: "Internationalisierung in ReactJS"
 description: "Lerne wie du eine ReactJS App richtig internationalisiert"
-author: "Dave Ceddia"
+author: "Preethi Kasireddy"
 slug: "internationalisierung-in-reactjs"
 published_at: 2017-05-17 12:00:00.000000Z
 language: de

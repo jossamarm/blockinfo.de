@@ -11,8 +11,6 @@ categories:
 header_image: "/artikel/reactjs-typescript/header.png"
 ---
 
-# Erste Schritte mit TypeScript und React
-
 Ich bin neulich auf den Geschmack von TypeScript gekommen und habe darüber in vielen Blogs von [Tom Dale Link](https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0)
 und anderen gelesen. Heute zeige ich dir wie ich ein TypeScript Projekt von Grund auf mit React und Webpack, um den Bauprozess zu verwalten, neu eingerichtet habe. Ich werde dir auch meine ersten Eindrücke von TypeScript geben und insbesondere mit TypeScript und ReactJS arbeiten.
 

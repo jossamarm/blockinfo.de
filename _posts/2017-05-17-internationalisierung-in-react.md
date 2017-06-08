@@ -7,7 +7,6 @@ published_at: 2017-05-17 12:00:00.000000Z
 language: de
 categories: 
   - reactjs
-  - tutorial
 header_image: "/artikel/internationalisierung-in-reactjs/header.png"
 ---
 
@@ -19,27 +18,27 @@ Die Entwickler nennen diesen Prozess **Internationalisierung** (abgekürzt als �
 
 Ein Grund, warum wir uns mit der Internationalisierung beschäftigten ist ganz einfach deshalb, weil es schwer ist, sie richtig umzusetzen. Jede Sprache hat andere Regeln und Konventionen. Sich an diese Regeln und Konventionen anzupassen kostet Zeit und Mühe. 
 
-### **Die Lösung: React Intl** ###
+### Die Lösung: React Intl
 
 Aber die Internationalisierung muss nicht schwierig sein, dank eines neuen ReactJS-Moduls. ***React Intl*** ist ein open-source Projekt von Yahoo und ein Teil von *Format.js*, einer Sammlung von JavaScript Modulen für Internationalisierung die auf der integrierten Intl API von Javascript aufbaut.
 
 Die *React Intl* Modul macht die Internationalisierung in ReactJS einfach, und zwar mit off-the-shelf Komponenten und einer API, die alles von der Formatierung von Strings, Daten und Zahlen bis hin zur Pluralisierung händeln kann.
 Lass uns das ganze mal durchgehen.
 
-### **Kernkonzepte** ###
+### Kernkonzepte
 Hier sind die Kernkonzepte, die du brauchst, um das meiste aus React Intl rauszuholen:
 
-# **Die Internationalisierung API von JavaScript**
+## Die Internationalisierung API von JavaScript
 JavaScript hat eine *Internationalisierung API* Spezifikation, die das **Intl** Objekt als Standart-integriertes globales Objekt definiert. 
 React Intl verwendet und baut im Wesentlichen auf diese API auf. Solange der Browser diese APIs unterstützt, wird React Intl weiterhin seine Magie wirken.
 *Hinweis: Der einzige Browser, der diese APIs derzeit nicht unterstützt, ist Safari. Wir benutzen ein polyfill, um das Problem im Beispielprojekten unten aus dem Weg zu räumen. * 
 
-## **Modul-Bündler**
+## Modul-Bündler
 React Intl vertreibt sein Paket über ES6-, CommonJS- und UMD-Module. Daher funktioniert das Ganze gut mit Bündlern wie Webpack, Browserify und Rollup.
 In dem Beispielprojekt benutzen wir Webpack als unseren Modul-Bündler.
 Wenn du nicht planst einen Modul Bündler zu nutzen, um React Intl in deine Anwendung zu laden, dann empfehle ich die Dokumentation für mehr Informationen mit anderen Herangehensweisen (z.B. über Node.js).
 
-## **Lokale Daten laden**
+## Lokale Daten laden
 React Intl stützt sich auf diese lokalen Daten, um die plural und relative-time Formatierung zu unterstützen. Lokale Daten definieren für jedes einzelne Gebietsschema Folgendes: 
 
 - Lokalspezifische Muster für die Formatierung und Zerlegung der Daten, Zeiten, Zeitzonen, Nummern und Währungswerten
@@ -51,10 +50,10 @@ Wenn du Browserify, Webpack oder Rollup benutzt, um React Intl für den Browser 
 
 
 
-## **Daten formatieren mit ReactJS Komponenten vs. Die API**
+### Daten formatieren mit ReactJS Komponenten vs. Die API
 Das Modul bietet zwei Möglichkeiten, um Strings, Nummern und Daten zu formatieren: **ReactJS Komponenten** oder eine **API**.
 
-# **ReactJS Komponente**
+## ReactJS Komponente
 
 ```javascript
 <FormattedMessage
@@ -62,7 +61,7 @@ Das Modul bietet zwei Möglichkeiten, um Strings, Nummern und Daten zu formatier
   defaultMessage="Click here to understand how we calculate fees." />
 ```
 
-# **API**
+## API
 
 ```javascript
 const messages = defineMessages({
@@ -89,13 +88,13 @@ d) *shouldComponentUpdate* implementiert, um teure Formatierungsprozesse zu verm
 
 Natürlich gibt es Fälle, bei denen deine einzige Möglichkeit die Nutzung einer API ist (zum Beispiel: einen String als Stütze, ein Namensattribut eines HTML-Elements, etc.), deshalb ist das auch immer noch praktisch. 
 
-### **Beispielprojekt**
+#### Beispielprojekt
 
 Ein Live Beispiel zu sehen, ist die beste Art zu lernen. Für diesen Beitrag habe ich ein einfaches ReactJS-Projekt erstellt, das aus einer Haupt Header-Komponente, einer Subheader Komponente und einigen Widged-Komponenten besteht, die jeweils ihre eigenen Header und Body‘s haben.
 
 Als erstes gehen wir den Prozess durch, in dem wir React Intl einstellen. Danach benutzen wir die Komponenten und API um Strings, Nummern, und Daten, die in den Komponenten verwendet werden, zu konvertieren. 
 
-### **Einrichten**
+#### Einrichten
 Nehmen wir an, wir haben eine bestehende ReactJS-Anwendung, von der aus wir arbeiten. Zuerst musst du das React Intl Paket installieren:
 
 ```shell
@@ -137,7 +136,7 @@ Dieses Babel Plugin extrahiert alle String Meldungen in deine Anwendung, die ent
 
 Sobald alles extrahiert ist, werden JSON Dateien generiert, die die String Meldungen enthalten und platziert sie in das Verzeichnis, das du im **messagesDir** Pfad oben definiert hast. 
 
-### **Daten laden**
+#### Daten laden
 
 Als nächsten laden wir die entsprechenden locale data für die Sprachen, die wie wir benötigen.
 
@@ -157,7 +156,7 @@ addLocaleData([...en, ...es, ...fr, ...it]);
 
 _Hinweis: Wenn deine App viel mehr unterstützt, empfiehlt es sich, die locale data basierend auf der Sprache des aktuellen Benutzers dynamisch zu laden. Lies die React Intl docs für weitere Informationen zu diesem Ansatz._
 
-### **Erstelle den i18n Kontext in deiner React Anwendlung**
+#### Erstelle den i18n Kontext in deiner React Anwendlung
 Bisher haben wir das React Intl Packet installiert, unser **.babelrc** Plugin eingestellt und die entsprechenden locale data geladen.
 
 Ein letzter Schritt besteht darin, einen i18n Kontext für alle unsere React-Komponenten zu erstellen, so dass die locale und die Übersetze Nachricht des derzeitigen Nutzers (auf dem Ort des Nutzers basierend) in die React Intl Komponente geladen werden kann, die du in deiner App definierst.
@@ -220,7 +219,7 @@ In diesem Setup gehen wir davon aus, dass unsere übersetzten Daten in `build/lo
 
 ```
 
-### **Erstelle ein Script für die Übersetzung**
+#### Erstelle ein Script für die Übersetzung
 
 Nun da wir alles fertig konfiguriert haben, schauen wir uns mal an, wie wir ein einfaches Script erstellen können, dass alle Strings verwendet, die Babel für uns in mehrere JSON-Dateien extrahiert und kombinieren sie zu einer Datei.
 
@@ -262,13 +261,13 @@ mkdirpSync(outputDir);
 fs.writeFileSync(outputDir + 'data.json', `{ "en": ${JSON.stringify(defaultMessages, null, 2)} }`);
 
 ```
-### **Schritte um Daten, Nummern und Strings in React Intl zu konvertieren**
+#### Schritte um Daten, Nummern und Strings in React Intl zu konvertieren
 Okay – wir sind endlich bereit, um ein bisschen zu formatieren!
 Die Beispiel-App hat ein einfaches Layout mit einem **header, subheader,** und **widgets**, die jeweils Strings, Nummern und/oder Daten enthalten:
 [FOTO]
 Nichts Anspruchsvolles, aber es ist genug, um loszulegen.
 
-## **Header**
+## Header
 Zuerst schauen wir uns den Header an, in dem steht: *“Willkommen in deinem dashboard, Preethi!“*
 Um das zu konvertieren, benutzen wir die **FormattedMessage** Komponente:
 ```javascript
@@ -291,7 +290,7 @@ Die **id** muss für jede in deiner App definierte Nachricht eindeutig sein.
 
 Es ist super, dass die **defaultMessage** Daten von den props übermitteln kann, wie in dem Fall für **name** oben (beachte, dass die Werte, die als Daten übrgeben werden, nicht übersetzt werden – sie werden einfach in die endgültig übersetzte Zeichenfolge eingefügt.)
 
-## **Subheader**
+## Subheader
 
 Lass uns als nächstes den Subheader betrachten, der etwas stärker beteiligt ist:
 
@@ -337,7 +336,7 @@ Eine weitere super Funktion ist **FormattedRelative**, welche die formatierte re
 
 Sobald es übersetzt und formatiert ist, lautet es: *”You last logged in 4 hours ago!”* (oder wann auch immer der letzte Login war.)
 
-### **Übergeben von formatierten Strings als Komponenten**
+#### Übergeben von formatierten Strings als Komponenten
 
 In den obigen zwei Snippets haben wir gesehen, wie wir die **Formatted*** Komponenten benutzen, um Strings, Nummern, Daten und Pluralisierung zu definieren.
 
@@ -420,7 +419,7 @@ Eine Sache, die du vielleicht beim ersten Widget bemerkt hast, ist, dass wir auc
 
 Die API funktioniert auch gut für die Formatierung von Zahlen, Zeiten, relativen Zeiten und Pluralisierung (sieh dir ihre docs für mehr dazu an)
 
-### **Wie man es in Safari zum funktionieren bringt**
+#### Wie man es in Safari zum funktionieren bringt
 
 Jetzt, da wir fast fertig sind, haue ich nochmal ein paar Informationen hierzu raus. 
 Das aktuelle Setup funktioniert nicht für Safari Browser 🙃.
@@ -502,7 +501,7 @@ Wie du sehen kannst, ist das erste, was zu überprüfen ist, ob die **intl** glo
 
 Und nun ist unsere vorübersetzte App (natürlich noch immer auf Englisch) endlich da. Ich werde dir noch einen finalen Schritt zeigen, der beinhaltet einen translation provider zu finden und diese Strings übersetzen zu lassen. 
 
-### **Andere Tipps**
+#### Andere Tipps
 
 Ich hoffe, dieser Beitrag ist genug, um deine React Anwendung in eine solche zu verwandeln, die für andere Kulturen und Sprachen zugänglich ist.
 
@@ -518,7 +517,7 @@ Bevor ich mich für heute abmelde, hier sind ein paar weitere Tipps, die zu beac
 
 - **Teile deine Strings nicht auf:** Zum Beispiel, wenn du „Your funds will arrive by July 7th“ hast, vermeide es sie aufzuteilen wie „Your funds will arrive by“ und „July 7th“. Diese Kombination mag aufgrund von Wortordnungsvariationen anderer Sprachen, vielleicht nur auf Englisch funktionieren. 
 
-### **Fazit**
+#### Fazit
 
 Fühl dich wie immer frei mit Fragen oder Anregungen zu kommentieren. Ich würde mich freuen diese zu beantworten 😊 
 Der ganze Code für die Beispiel-Anwendung kann bei GitHub hier gefunden werden: 

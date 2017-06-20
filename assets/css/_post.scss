@@ -1,7 +1,7 @@
 .post-content {
   font-size: 18px;
 
-  p:first-child:first-letter {
+  > p:first-child:first-letter {
     color: $brand-color;
     float: left;
     font-size: 75px;

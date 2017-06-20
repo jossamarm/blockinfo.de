@@ -11,8 +11,8 @@ categories:
 header_image: "/artikel/reactjs-typescript/header.png"
 ---
 
-Ich bin neulich auf den Geschmack von TypeScript gekommen und habe darüber in vielen Blogs von [Tom Dale Link](https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0)
-und anderen gelesen. Heute zeige ich dir wie ich ein TypeScript Projekt von Grund auf mit React und Webpack, um den Bauprozess zu verwalten, neu eingerichtet habe. Ich werde dir auch meine ersten Eindrücke von TypeScript geben und insbesondere mit TypeScript und ReactJS arbeiten.
+Ich bin neulich auf den Geschmack von TypeScript gekommen und habe darüber in vielen Blogs von [Tom Dale](https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0)
+und anderen gelesen. Heute zeige ich dir wie ich ein TypeScript Projekt von Grund auf mit React und Webpack, um den Build-Process zu verwalten, neu eingerichtet habe. Ich werde dir auch meine ersten Eindrücke von TypeScript geben und insbesondere mit TypeScript und ReactJS arbeiten.
 
 Ich werde nicht zu sehr ins Detail der Besonderheiten der TypeScript Syntax eingehen, aber du kannst entweder das [TypeScript Handbook](https://www.typescriptlang.org/docs/tutorial.html) oder das kostenlose Buch [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html), welches dir auch eine großartige Einführung in die Sprache geben wird, lesen.
 

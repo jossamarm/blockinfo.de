@@ -1,0 +1,21 @@
+.badge {
+  padding: 4px 6px;
+  font-size: 12px;
+  background: #EEE;
+  border-radius: 2px;
+  display: inline-block;
+  color: #09D261;
+  vertical-align: middle;
+}
+
+.badge img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.badge span {
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: middle;
+}

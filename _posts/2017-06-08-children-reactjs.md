@@ -7,7 +7,6 @@ published_at: 2017-06-08 15:00:00.000000Z
 language: de
 categories: 
   - reactjs
-  - tutorial
 header_image: "/artikel/children-in-reactjs/header.png"
 ---
 

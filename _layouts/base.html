@@ -35,6 +35,20 @@
   {% include _seo_helper.html %}
 
   <!-- JavaScript -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.6/bootstrap-native-v4.min.js"></script>
+  {% if jekyll.environment == "production" %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.6/bootstrap-native-v4.min.js"></script>
+  <script src="//unpkg.com/headroom.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  {% else %}
+  <script src="/assets/js/bootstrap-native-v4.min.js"></script>
+  <script src="/assets/js/headroom.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  {% endif %}
+  <script>
+    var myElement = document.getElementById("header");
+    var headroom = new Headroom(myElement);
+    headroom.init();
+  </script>
+  {% contentblock javascript %}
 </body>
 </html>

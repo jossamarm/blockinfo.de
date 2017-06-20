@@ -1,8 +1,7 @@
-<footer>
-  {% include _newsletter.html %}
+<footer class="hidden-print">
+  <!-- {% include _newsletter.html %} -->
 
-  <div class="info-footer">
-    <div class="container text-center">
+    <!--
       <ul class="list-inline pull-md-right hidden-print">
         <li>
           <a href="/feed.xml" target="_blank" track-ga-event="navigation;top;@href">
@@ -31,17 +30,28 @@
           </a>
         </li>
       </ul>
-      <div class="text-md-left pull-xs-center pull-md-left">
-        <ul class="list-inline text-uppercase">
-          <li class="list-inline-item"><a href="/workshops/react-intensiv/">Schulung / Seminar</a></li>
-          <li class="list-inline-item"><a href="/inhouse-workshop/">Inhouse</a></li>
-          <li class="list-inline-item"><a href="/ueber-uns/">Team</a></li>
-          <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
-          <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
-        </ul>
-        <small class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Workshops Europe GmbH. Alle Rechte vorbehalten.</small>
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="/tutorials">Tutotrials</a></li>
+            <li class="list-inline-item"><a href="/artikel">Alle Artikel</a></li>
+            <li class="list-inline-item"><a href="/autor-werden">Autor werden</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="clearfix"></div>
+      <br>
+      <div class="row">
+        <div class="col-md-8">
+          <span class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Workshops Europe GmbH. Alle Rechte vorbehalten.</span>
+        </div>
+        <div class="col-md-4 text-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
+            <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
 </footer>

@@ -1,5 +1,6 @@
 ---
 layout: base
+comments: true
 ---
 
 {% for user_hash in site.data.users %}
@@ -8,38 +9,48 @@ layout: base
   {% endif %}
 {% endfor %}
 
-<div class="header header-post background-gradient-overlay">
-  <div class="header header-post hidden-print"
-       style="background-image: url('{{page.header_image}}');"></div>
-  <div class="container text-wrapper" style="text-align: center;">
-    <h1 class="header-post-title">{{ page.title }}</h1>
-    <div class="header-post-author">von {{ author.name }}</div>
-  </div>
-</div>
-
 <div class="container">
   <main role="main">
 
     <div class="row justify-content-md-center">
-      <div class="col-md-12 col-lg-8">
-        <div id="post-feedback">
+      <div class="col-md-12 col-lg-10">
+        <div class="header header-post">
+          <img src="{{page.header_image}}" title="{{ page.title }}" class="header-image">
+          <h1 class="header-post-title">{{ page.title }}</h1>
+          <div class="header-post-author">von {{ author.name }}</div>
+        </div>
+
+        <div id="post-feedback" class="hidden-print">
           <span>Artikel verständlich?</span>
           <button onclick="sendFeedback(event, 'up')">👍</button>
           <button onclick="sendFeedback(event, 'down')">👎</button>
           <button class="post-feedback-close" onclick="closeFeedback()">X</button>
         </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center post">
+      <div class="col-md-12 col-lg-10 post-content">
 
         {{ content }}
         <br>
         {% comment %}
         {% include _author.html %}
         {% endcomment %}
-        <br>
+
         <p>
           <a href="{{site.repository_url}}/edit/master/{{page.path}}" target="_blank">Diesen Artikel auf GitHub verbessern</a>
         </p>
 
-        <br>
+        <div id="disqus_thread"></div>
+        <script>
+          (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-reactx-de.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
 
         <div class="hidden-print">
           <!-- {% include _related_articles.html %} -->

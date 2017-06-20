@@ -1,5 +1,5 @@
 ---
-title: Artikel
+title: Alle Artikel
 noindex: true
 sitemap: false
 permalink: /artikel/
@@ -12,14 +12,16 @@ pagination:
     after: 2
 ---
 
-<form action="/suche/" method="get" class="hidden-md-up mb-2">
-  <input type="text" class="form-control article-search" name="q" placeholder="Artikel durchsuchen">
-</form>
 
+<div class="container">
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-12">
     {% for post in paginator.posts %}
+      {% cycle 'add row' : '<div class="row">', nil %}
+      <div class="col-md-6">
       {% include _article.html %}
+      </div>
+      {% cycle 'end row' : nil, '</div><br>' %}
     {% endfor %}
 
     <nav aria-label="Paginierung">
@@ -65,6 +67,7 @@ pagination:
     </nav>
   </div>
   <div class="col-md-4">
+    <!--
     <form action="/suche/" method="get" class="hidden-sm-down mb-4">
       <input type="text" class="form-control article-search" name="q" placeholder="Artikel durchsuchen">
     </form>
@@ -74,7 +77,6 @@ pagination:
 
     <a class="btn btn-secondary btn-block mb-4" href="/artikel/alle/">Alle Artikel anzeigen</a>
 
-    <!--
     <h2>Partner</h2>
 
     <div class="card card-block text-center">
@@ -84,7 +86,24 @@ pagination:
       </a>
     </div>
     -->
+  </div>
+</div>
 
+<div class="row">
+  <div class="col-md-10">
+    <br>
+    <p>Wir bei ReactX sind die deutsche Community zu ReactJS. Hier gibt es aktuelle Artikel und Tutorials in deutscher Sprache, die euch helfen eure React-Projekte umzusetzen. Unsere deutschen Autoren teilen in unterschiedlichen Tutorials ihre Erfahrungen mit euch und berichten von Neuigkeiten zum Thema ReactJS. Hilfreiche Artikel und verständliche Tutorials erwarten euch.</p>
+    <br>
+    <br>
+  </div>
+</div>
 
+</div>
+
+<div class="home-section home-section--brand">
+  <div class="container">
+    <div class="h3">Das sind dir nicht genug Artikel ?</div>
+    <span class="home-author-subtitle">Wir zahlen dir bis zu <a href="/autor-werden">200 EUR</a> für einen guten Artikel.</span><br><br>
+    <a href="/autor-werden" class="button-white">Thema vorschlagen…</a>
   </div>
 </div>

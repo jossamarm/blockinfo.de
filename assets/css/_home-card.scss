@@ -1,0 +1,50 @@
+.home-card-col:nth-child(3) {
+  .home-card-link {
+  }
+}
+
+.home-card-link {
+  padding: 20px;
+  font-weight: normal;
+  display: block;
+  line-height: 1.4;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  // background: #FFF;
+  // border: 2px solid #EEE;
+  background: $brand-color;
+  color: #FFF;
+  border-radius: 3px;
+
+  &:hover {
+    background: lighten($brand-color, 5%);
+    // background: $brand-color;
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+.hero-logo svg {
+  width: 95%;
+  height: 95%;
+}
+
+.home-card-title {
+  font-size: 24px;
+}
+
+.home-card-subtitle {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.home-card-background {
+  height: 160px;
+  display: block;
+  background-size: cover;
+  background-position: 50% center;
+  margin: -20px -20px 20px;
+  background-color: #FFF;
+}

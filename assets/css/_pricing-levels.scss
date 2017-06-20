@@ -1,0 +1,18 @@
+.pricing-levels {
+  margin: 20px;
+}
+.pricing-level {
+  border: 2px solid #EEE;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.pricing-level-title {
+  font-style: 24px;
+}
+
+.pricing-level-image-container {
+  min-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

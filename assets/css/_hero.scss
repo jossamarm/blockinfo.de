@@ -1,0 +1,30 @@
+.hero {
+  // color: $brand-color;
+  padding: 60px 0;
+  background-image: url(/assets/img/hero.jpg);
+  background-size: cover;
+  background-position: 50% center;
+  color: #FFF;
+}
+
+.hero-text {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 0 30px #000;
+}
+
+.hero-text-title {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text-slogan {
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.hero-logo svg g {
+  fill: #FFF;
+}

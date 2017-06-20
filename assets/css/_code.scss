@@ -1,15 +1,26 @@
 pre {
-  background-color: #fafafa;
+  font-size: 14px;
   //border: 1px solid #f3f3f3;
   word-wrap: normal !important;
   white-space: pre-wrap;
   overflow: auto;
 
   code {
-    padding: 10px 10px;
+    border-left: 4px solid #0086ff;
+    border-radius: 3px;
+    padding: 15px 20px;
     white-space: pre !important;
     display: block;
   }
 }
 
 code { white-space: pre-wrap; }
+
+li code, p code {
+  background-color: #EEE;
+  border-radius: 2px;
+  color: #000;
+  padding: 0px 4px;
+  display: inline-block;
+  font-size: 80%;
+}

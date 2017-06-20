@@ -5,70 +5,169 @@ description: Alles rund um React auf deutsch - Tutorials · Artikel · News · S
 permalink: /
 ---
 <main>
-  <div style="background-color: #f1f1f1; border-bottom: 3px solid #eee;" class="mb-2 pb-2">
-    <br>
-    <div class="container mt-4">
-      <br><br>
-      <h1 class="text-center">Alles rund um React</h1>
-      <h2 class="text-center"><small>Seit über 2 Jahren</small></h2>
-      <div class="row mt-1 mb-2">
-        <div class="col-md-4 pt-1 hidden-sm-down">
-          <h3>Lernen &amp; Austausch</h3>
-          <p class="text-justify">
-            Stöbere durch unsere <a href="/artikel/">Artikel</a>
-            und <a href="/tutorials/">Tutorials</a> - erfahre alles rund um React.</p>
-          <!--
-          <p class="text-justify">Tausch Dich aus mit der
-            <a href="https://slack.reactx.de" target="_blank">React-Community</a> in Deutschland, Österreich und der Schweiz!</p>
-          -->
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 hero-logo text-center hidden-xs">
+          {% include logo-de.svg %}
+          <!-- <img alt="{{ site.title }}" src="/assets/img/logo-de.svg" width="100%"> -->
         </div>
-        <div class="col-md-4">
-          <div class="mx-auto circled-logo-wrapper">
-            <div class="circled-logo" style="background-image: url(/assets/img/logo-de.svg);">
-            </div>
+        <div class="col-md-8 hero-text">
+          <h1 class="hero-text-title">Mit <strong>{{ site.title }}</strong> bist du mittendrin!</h1>
+          <h2 class="hero-text-slogan">Stöbere durch unsere Artikel und Tutorials - <br>erfahre alles rund um React. </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-section home-section--grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="home-section-headline">Artikel über ReactJS</h2>
+          <p>ReactX.DE versorgt dich mit Artikeln rund um das Thema React und ReactJS.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        {% for post in site.posts limit:3 %}
+          <div class="col-md-4 home-card-col">
+            {% include _home_card.html %}
           </div>
-        </div>
-        <div class="col-md-4 pt-1 hidden-sm-down">
-          <h3>Workshops &amp; Jobs</h3>
-          <p class="text-justify">Lerne aus unseren Fehlern!</p>
-          <p class="text-justify">
-            Erfahre alles über React in unseren <a href="/workshops/react-intensiv/">Offenen-</a>
-            und <a href="/inhouse-workshop/">Inhouse-Schulungen</a>.</p>
+        {% endfor %}
+      </div>
+
+      <br>
+
+      <div class="row text-center">
+        <div class="col-md-12">
+          <a class="button" href="/artikel/">Alle Artikel ansehen</a>
         </div>
       </div>
 
-      <!--
-      <div class="alert alert-info text-center lead">
-        Noch neu im Bereich
-        <strong>React</strong>
-        - Starte hier mit unseren
-        <a href="/tutorials/"><strong>Einsteiger-Tutorials!</strong></a>
-      </div>
-      -->
     </div>
   </div>
+
+
+
+  <!--
+  <div class="home-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+            <img src="/assets/img/slack-screen.png">
+          </div>
+          <br>
+          <h3 class="home-section-headline">ReactX Slack</h3>
+          <p>Unsere Slack-Community wird jeden Tag größer, werde Teil und hilf anderen nicht über die gleichen React Stolpersteine zu fallen.</p>
+          <a href="https://slack.reactx.de/" class="button-slack button-delight" target="_blank">
+            { include slack-mark.svg } Slack betreten
+          </a>
+        </div>
+  -->
+
+  <div class="home-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="">
+            <img src="/assets/img/meetup-logo.svg" width="220px">
+          </div>
+          <br>
+          <br>
+          <h3 class="home-section-headline">Wir lieben Meetups</h3>
+          <p>
+          Als deutsche Community zu ReactJS, wollen wir, dass ihr euch trefft und austauscht. Bei Meetups lernt ihr zusammen und voneinander, so könnt ihr mit anderen Entwicklern Tipps und Tricks austauschen und sammelt praktische Erfahrung mit ReactJS. <br><br>Wir unterstützen Meetups, sowie wie wir sie auch selbst organisieren. Sag uns gerne Beschied, wir unterstützen auch dich gern beim organisieren deines nächsten ReactJS Meetups!</p>
+          <br>
+          <a href="https://www.meetup.com/topics/reactjs/de" class="button-slack button-delight" target="_blank">
+            <img src="/assets/img/meetup-dot.png" height="42px"> <span>Meetups anzeigen</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+
+  <div class="home-section home-section--grey">
 
   <div class="container">
-    <div class="row mt-4">
+    <h3 class="home-section-headline text-grey">Mit uns verpasst du nichts !</h3>
+    <div class="row">
       <div class="col-md-8">
-        {% for post in site.posts limit:4 %}
-          {% include _article.html %}
-        {% endfor %}
-        <a class="btn btn-block btn-secondary text-muted hidden-sm-up" href="/artikel/">weitere Artikel</a>      <br class="hidden-sm-up">
-        <br class="hidden-sm-up">
+        <h5 title="Medium Artikel">
+          <img src="/assets/img/medium-logo.svg" height="20px">
+          <span class="badge">
+            <img src="/assets/img/live.svg" width="16">
+            <span>realtime</span>
+          </span>
+        </h5>
+        <ul id="live-article"></ul>
       </div>
-
       <div class="col-md-4">
-        <!--
-        <h2 class="h3">Tutorials</h2>
-        {% include _sidebar_posts.html contains='tutorial' %}
-        -->
-
-        {% include _course_banner.html %}
+        <h5 title="">
+          Kommende Meetups
+        </h5>
       </div>
     </div>
   </div>
+
+  </div>
+
+  -->
+
+  <div class="home-section home-section--brand">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <span class="home-author-title">Bist du eher auf <strong>Output</strong> gepolt?<br>Werde Autor: Schreibe über ein <strong>React Thema</strong></span><br>
+          <span class="home-author-subtitle">Wir zahlen dir bis zu <a href="/autor-werden">200 EUR</a> für einen guten Artikel.</span>
+          <br>
+          <br>
+          <a href="/autor-werden#google-form" class="button-white">Jetzt bewerben</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="home-section-headline">Wir wissen was wir tun</h3>
+          <p>Seit über drei Jahren geben wir bei <a href="https://workshops.de" target="_blank">Workshops Europe</a> Schulungen für die größten Firmen Deutschlands.<br>Wir sorgen bei unseren Workshops in ganz Deutschland für ein effektives und nachhaltiges Lernergebnis.</p>
+          <br>
+          <div class="home-company-logos">
+            <img alt="Axel Springer" src="/assets/img/referenzen-logos/axel-springer.jpg" height="48px">
+            <img alt="DB Schneker" src="/assets/img/referenzen-logos/db-schenker.svg" height="48px">
+            <img alt="Allianz" src="/assets/img/referenzen-logos/allianz.png" height="48px">
+            <img alt="Generali" src="/assets/img/referenzen-logos/generali.svg" height="28px">
+            <img alt="Süddeutsche Zeitung" src="/assets/img/referenzen-logos/sueddeutsche-zeitung.svg" height="38px">
+            <img alt="Telekom" src="/assets/img/referenzen-logos/telekom.svg" height="48px">
+            <img alt="Thomas Cook" src="/assets/img/referenzen-logos/thomas-cook.png" height="55px">
+            <img alt="Volkswagen" src="/assets/img/referenzen-logos/vw.png" height="80px">
+            <img alt="Condor" src="/assets/img/referenzen-logos/condor.svg" height="48px">
+            <img alt="HAYS" src="/assets/img/referenzen-logos/hays.svg" height="48px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-section home-section--grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <span class="home-author-title">Immnoch auf der Suche?<br>
+          <span class="home-author-subtitle">Wir haben handverlese Tutorials, rund um das Thema ReactJS</span>
+          <br>
+          <br>
+          <a href="/tutorials" class="button">Einstieger Tutorials ansehen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </main>
-
-
-

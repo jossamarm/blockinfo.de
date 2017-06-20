@@ -1,0 +1,12 @@
+<script type="application/ld+json">{"url":"{{post.url}}","publisher":"{{site.title}}","image":{"width":920,"url":"{{post.header_image}}","height":270,"@type":"ImageObject"},"headline":"{{post.title}}","description":"{{post.description}}","datePublished":"{{post.date}}","dateModified":"2017-02-05","author":"{{post.author}}","@type":"Article","@context":"http://schema.org"}</script>
+
+<article class="home-card">
+  <h3 class="home-card-title">
+    <a class="home-card-link" title="{{post.title}}" href="{{ post.url }}">
+      <span class="home-card-background" style="background-image: url('{{post.header_image}}');"></span>
+      <span class="home-card-title">{{post.title}}</span>
+      <br>
+      <span class="home-card-subtitle">von {{post.author}}</span>
+    </a>
+  </h3>
+</article>

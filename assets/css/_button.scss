@@ -1,0 +1,65 @@
+.button {
+  display: inline-block;
+  font-size: 18px;
+  border: 2px solid $brand-color;
+  padding: 15px 40px;
+  color: $brand-color;
+  border-radius: 3px;
+  transition: background 100ms linear;
+
+  &:hover {
+    background: $brand-color;
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+.button-brand {
+  display: inline-block;
+  font-size: 18px;
+  background: $brand-color;
+  padding: 15px 40px;
+  color: #FFF;
+  border-radius: 3px;
+
+  &:hover {
+    background: lighten($brand-color, 5%);
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+.button-delight {
+  display: inline-block;
+  font-size: 18px;
+  border: 2px solid #DDD;
+  padding: 5px 30px;
+  color: #666;
+  border-radius: 3px;
+
+  &:hover {
+    text-decoration: none;
+    background: #EEE;
+    color: #666;
+  }
+}
+
+a.button-white {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: $brand-color;
+  border-radius: 3px;
+  background: #FFF;
+  border: 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button-slack svg {
+  width: 24px;
+  height: 42px;
+  vertical-align: middle;
+}

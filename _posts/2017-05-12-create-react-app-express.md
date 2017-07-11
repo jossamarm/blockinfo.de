@@ -165,7 +165,7 @@ Create ReactJS App [beinhaltet](https://github.com/facebookincubator/create-reac
 
 ## Schlusswort
 
-Jetzt bist du ein Profi beim Anschließen einer CRA-generierten App an jegliche Backends. Hast du mehr fragen? Willst du noch mehr über etwas anderes erfahren? Melde dich gerne für unseren Newsletter an. 
+Jetzt bist du ein Profi beim Anschließen einer CRA-generierten App an jegliche Backends. Hast du mehr Fragen? Willst du noch mehr über etwas anderes erfahren? Melde dich gerne für unseren Newsletter an. 
 
 #### Credits
 

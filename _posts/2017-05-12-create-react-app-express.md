@@ -8,7 +8,7 @@ language: de
 categories: 
   - reactjs
   - tutorial
-header_image: "/artikel/create-reactjs-app-express/header.png"
+header_image: "artikel/create-reactjs-app-express/header.png"
 ---
 
 Wenn du noch nicht davon gehört hast, [Create React App](https://github.com/facebookincubator/create-react-app) ist ein unglaublicher Weg um mit ReactJS zu starten. Es wird eine Projekt-Struktur für dich erstellt, komplett vorbereitet und bereit zum starten. Du kannst die Konfiguration von Webpack und Babel auslassen und direkt mit dem Schreiben deiner App beginnen.

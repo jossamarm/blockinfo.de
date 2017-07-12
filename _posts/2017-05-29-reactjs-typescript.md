@@ -8,7 +8,7 @@ language: de
 categories:
   - reactjs
   - tutorial
-header_image: "/artikel/reactjs-typescript/header.png"
+header_image: "artikel/reactjs-typescript/header.png"
 ---
 
 Ich bin neulich auf den Geschmack von TypeScript gekommen und habe darüber in vielen Blogs von [Tom Dale](https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0)

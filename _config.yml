@@ -50,6 +50,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-contentblocks
 exclude:
   - Gemfile
   - Gemfile.lock

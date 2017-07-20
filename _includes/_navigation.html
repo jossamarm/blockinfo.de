@@ -1,46 +1,29 @@
 <nav id="header" data-headroom class="navbar navbar-toggleable-sm fixed-top headroom headroom--pinned">
   <div class="container">
     <a class="navbar-brand" href="/">
-      {% include logo-de.svg width="40px" %}
+      <img src="/assets/img/logo-de.png" width="40">
     </a>
-    <button class="hidden-print navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="assets/img/nav-burger.svg" height="20px">
+    <button class="hidden-print navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="/assets/img/nav-burger.svg" height="20px">
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item {% if page.url contains '/artikel' %}active{% endif %}">
-          <a class="nav-link" href="/artikel/">Alle Artikel</a>
-        </li>
         <li class="nav-item {% if page.url contains '/tutorials' %}active{% endif %}">
           <a class="nav-link" href="/tutorials/">Für Einsteiger</a>
         </li>
-        <!--
-        <li class="nav-item {% if page.url contains '/aktuelles' %}active{% endif %}">
-          <a class="nav-link" href="/aktuelles/">Aktuelles</a>
+        <li class="nav-item {% if page.url contains '/artikel' %}active{% endif %}">
+          <a class="nav-link" href="/artikel/">Alle Artikel</a>
         </li>
-        <li class="nav-item {% if page.url contains '/workshops' %}active{% endif %}">
-          <a class="nav-link" href="/workshops/react-intensiv/">Schulung</a>
-        </li>
-        -->
       </ul>
 
       <ul class="navbar-nav mr-2 hidden-sm">
-        <li class="nav-item {% if page.url contains '/autor-werden' %}active{% endif %}">
-          <a class="nav-link" href="/autor-werden/" title="Autor werden">
-            Autor werden
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://slack.reactx.de" title="ReactX Slack" target="_blank">
-            <img src="assets/img/slack-mark.svg" width="30px">
+        <li class="nav-item {% if page.url contains '/thema-vorschlagen' %}active{% endif %}">
+          <a class="nav-link" href="/thema-vorschlagen/" title="Autor werden">
+            Thema vorschlagen
           </a>
         </li>
       </ul>
-      <!--
-      <form class="form-inline hidden-sm" action="/suche/" method="GET">
-        <input name="q" class="form-control navbar-search" type="text" placeholder="Suche">
-      </form>
-      -->
     </div>
   </div>
 </nav>

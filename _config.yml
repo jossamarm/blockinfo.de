@@ -1,12 +1,12 @@
-title: ReactX.DE
+title: Blockinfo.de
 description: ""
-url: "https://reactx.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 ga_property: "UA-97181121-3"
 permalink: /artikel/:slug/
 repository_url: "https://github.com/workshops-de/reactx.de"
-twitter_url: https://twitter.com/reactx_de
+twitter_url: https://twitter.com
 ws_course_id: 17
 custom_search_id: "011221661346354572919:zpf1hzv67my"
 

@@ -1,6 +1,6 @@
 ---
-header: Unsere Einsteiger Tutorials
-title: Unsere Einsteiger Tutorials
+header: Unsere Einsteiger Artikel
+title: Unsere Einsteiger Artikel
 description: Wir versorgen dich mit unterschiedlich intensiven Tutorials zum Thema ReactJS und mehr
 noindex: true
 sitemap: false
@@ -10,7 +10,7 @@ sitemap: false
   <div class="container">
     <div class="row">
       {% for post in site.posts %}
-        {% if post.categories contains 'tutorial' %}
+        {% if post.categories contains 'beginner' %}
           <div class="col-12 col-md-6 mb-2">
             {% include _article.html %}
           </div>
@@ -19,10 +19,10 @@ sitemap: false
     </div>
 
     <div class="row">
-      <div class="col-md-10">
+      <div class="col-md-12">
         <br>
         <br>
-        <p>Die deutsche ReactX Community wächst stetig, damit sie das kann und auch du Teil davon wirst, findest du hier Tutorials für den Einstieg. Wir heißen dich in der Welt rund um React willkommen und versorgen dich mit unterschiedlich intensiven Tutorials zum Thema ReactJS und mehr.</p>
+        <p>Die Themen rund um Blockchain werden immer alltäglicher und es kommen dabei viele Fragen auf. Wir versuchen mit Blockinfo.de eine Platform zu schaffen, auf der ihr ganz einfach verstehen könnt worum es sich bei Begriffen wie Blockchain, Cryptowährungen, dezentralen Netzwerken und vielem mehr handelt.</p>
       </div>
     </div>
   </div>

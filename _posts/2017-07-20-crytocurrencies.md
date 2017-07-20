@@ -9,7 +9,7 @@ categories:
   - beginner
   - blockchain
   - cryptocurrencies
-header_image: "/artikel/children-in-reactjs/header.png"
+header_image: "/artikel/children-in-js/header.png"
 ---
 
 #### Warum sollte ich das überhaupt wissen?

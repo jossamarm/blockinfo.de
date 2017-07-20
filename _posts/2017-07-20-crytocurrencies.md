@@ -1,5 +1,5 @@
 ---
-title: "Was ist eigentlich eine Cryptowährung"
+title: "Was ist eigentlich eine Cryptowährung?"
 description: "Eine einfache Erklärung zu Cryptowährungen"
 author: "Leonard Thiele"
 slug: "cryptocurrencies"
@@ -12,9 +12,7 @@ categories:
 header_image: "/artikel/children-in-js/header.png"
 ---
 
-#### Warum sollte ich das überhaupt wissen?
-
-Cryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Cryptowährungen bieten die Möglichkeit, die bestehenden Finanzsysteme zu revolutionieren und wieder einen echten Gegenwert für eine genutzte Währung zu erschaffen. In der Zukunft werden Cryptowährungen also immer relevanter und es ist gut schon einmal zu wissen, worum es dabei geht.
+Cryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Cryptowährungen bieten die Möglichkeit, die bestehenden Finanzsysteme zu revolutionieren und wieder einen echten Gegenwert für eine genutzte Währung zu erschaffen.
 
 #### Cryptowährung
 

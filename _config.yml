@@ -3,9 +3,9 @@ description: ""
 url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-ga_property: "UA-97181121-3"
+ga_property: ""
 permalink: /artikel/:slug/
-repository_url: "https://github.com/workshops-de/reactx.de"
+repository_url: "https://github.com/blockchain-info/blockinfo.de"
 twitter_url: https://twitter.com
 ws_course_id: 17
 custom_search_id: "011221661346354572919:zpf1hzv67my"

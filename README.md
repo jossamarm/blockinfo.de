@@ -1,5 +1,3 @@
-# reactx.de [![Build Status](https://semaphoreci.com/api/v1/workshops/reactx-de/branches/master/badge.svg)](https://semaphoreci.com/workshops/reactx-de)
-
 ## Installation
 
 ```
@@ -10,10 +8,4 @@ bundle install
 
 ```
 $ jekyll s --incremental
-```
-
-## Build the dockerfile locally
-
-```
-$ docker build -t reactx-de .
 ```

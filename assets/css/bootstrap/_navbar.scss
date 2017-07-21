@@ -113,6 +113,7 @@
 .navbar-toggler-right {
   position: absolute;
   right: $navbar-padding-x;
+  float: right;
 }
 
 // Generate series of `.navbar-toggleable-*` responsive classes for configuring

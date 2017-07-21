@@ -9,7 +9,7 @@ categories:
   - beginner
   - blockchain
   - cryptocurrencies
-header_image: "/artikel/children-in-js/header.png"
+header_image: "/artikel/cryptocurrencies/header.png"
 ---
 
 Cryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Cryptowährungen bieten die Möglichkeit, die bestehenden Finanzsysteme zu revolutionieren und wieder einen echten Gegenwert für eine genutzte Währung zu erschaffen.

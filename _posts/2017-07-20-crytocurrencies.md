@@ -16,7 +16,7 @@ Cryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder
 
 #### Cryptowährung
 
-Eine Cryptowährung ist ganz einfach gesagt, eine digitale Währung. Das Wort „Crypto“ verweist auf die Kryptographie, die Wissenschaft rund um die Verschlüsselung von Informationen.
+Eine Cryptowährung ist ganz einfach gesagt, eine digitale Währung.
 Mit Cryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währungen. Möchte ich etwas kaufen und der Verkäufer akzeptiert diese Cryptowährung, so kann ich ihm den geforderten Preis einfach auf sein digitales Konto überweisen.
 
 #### Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?
@@ -25,13 +25,15 @@ Bei Cryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwalte
 
 #### Blockchain
 
-Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ist ein Block voll und einmal abgeschlossen, kann er nie wieder verändert werden. Das bietet die sehr hohe Sicherheit bei Cryptowährungen.
+Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von Bitcoin zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Cryptowährungen.
+
+![Blockchain Einfach](/artikel/cryptocurrencies/cryptocurrencies_block.png)
 
 #### Mein Konto
 
 Wie wir schon wissen, benötigen Cryptowährungen keine Bank, also muss man sich bei der Erstellung eines Kontos auch nirgendwo anmelden oder ausweisen. Das ist der Grund, warum viele Cryptowährungen auch komplett anonym sind.
 
-Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wallets“ tun. Eine Wallet ist nichts anderes als ein Computerprogramm, welches weiß wie die ausgewählte Cryptowährung aufgebaut ist.
+Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wallets“ tun. Eine Wallet ist nichts anderes als ein Computerprogramm, mit welchem man Zugang zu der ausgewählten Währung hat. Wie die Bezeichnung vermuten lässt, kann man es sich wie ein Porte­mon­naie vorstellen, indem wir alle unsere Bankkarten aufbewahren.
 Bei der Erstellung eines Kontos werden zwei Schlüssel erzeugt. Einer dieser Schlüssel ist die öffentliche Adresse, die man weitergeben kann um Überweisungen zu erhalten, ähnlich einer Kontonummer.
 Der zweite Schlüssel ist geheim und darf niemals weitergegeben werden. Er ist der Schlüssel, mit welchem man selbst Überweisungen verschicken kann. Ähnlich des PINs einer Bankkarte. Wer diesen privaten Schlüssel besitzt, ist auch Besitzer des Kontos.
 

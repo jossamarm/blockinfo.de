@@ -49,7 +49,7 @@ Damit ist eine schnelle Entwertung des Geldes innerhalb einer Kryptowährung seh
 
 #### Und wann kann man damit auch bezahlen?
 
-Die Entwicklung der Kryptowährungen begann schon 2008 mit Bitcoin und hat sich seitdem verbreitet und verbessert. Viele weitere Kryptowährungen sind entstanden, die verschiedene Funktionalitäten bieten. Die Kryptowährungen bekommen laufend mehr Aufmerksamkeit und immer mehr Onlineshops und auch lokale Geschäfte akzeptieren die digitalen Währungen.
+Die Entwicklung der Kryptowährungen begann schon 2008 mit Bitcoin und hat sich seitdem verbreitet und verbessert. Die Kryptowährungen bekommen laufend mehr Aufmerksamkeit und immer mehr Onlineshops und auch lokale Geschäfte akzeptieren die digitalen Währungen.
 
 
 ##### Credits

@@ -21,7 +21,7 @@ Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währung
 
 #### Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?
 
-Bei Kryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortwährende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
+Bei Kryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
 
 #### Blockchain
 
@@ -31,9 +31,9 @@ Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, g
 
 #### Mein Konto
 
-Wie wir schon wissen, benötigen Kryptowährungen keine Bank, also muss man sich bei der Erstellung eines Kontos auch nirgendwo anmelden oder ausweisen. Das ist der Grund, warum viele Kryptowährungen auch komplett anonym sind.
+Kryptowährungen benötigen keine Bank, also muss man sich bei der Erstellung eines Kontos auch nirgendwo anmelden oder ausweisen. Das ist auch der Grund, warum viele Kryptowährungen komplett anonym sind.
 
-Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wallets“ tun. Eine Wallet ist nichts anderes als ein Computerprogramm, mit welchem man Zugang zu der ausgewählten Währung hat. Wie die Bezeichnung vermuten lässt, kann man es sich wie ein Porte­mon­naie vorstellen, indem wir alle unsere Bankkarten aufbewahren.
+Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wallets“ tun. Eine Wallet ist nichts anderes als ein Computerprogramm, mit welchem man Zugang zu der ausgewählten Währung hat. Wie die Bezeichnung vermuten lässt, kann man es sich wie ein Porte­mon­naie vorstellen, indem man alle seine Bankkarten aufbewahrt.
 Bei der Erstellung eines Kontos werden zwei Schlüssel erzeugt. Einer dieser Schlüssel ist die öffentliche Adresse, die man weitergeben kann um Überweisungen zu erhalten, ähnlich einer Kontonummer.
 Der zweite Schlüssel ist geheim und darf niemals weitergegeben werden. Er ist der Schlüssel, mit welchem man selbst Überweisungen verschicken kann. Ähnlich des PINs einer Bankkarte. Wer diesen privaten Schlüssel besitzt, ist auch Besitzer des Kontos.
 
@@ -42,15 +42,14 @@ Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfa
 #### Wie wird neues Geld erzeugt?
 
 Wenn Europa zum Beispiel neue Euros produzieren will, so kann die Europäische Zentralbank eine bestimmte Summe festlegen und diese ohne realen Gegenwert in das bestehende Finanzsystem einfließen lassen. Auch Banken handeln schon lange nicht mehr mit realen Gegenwerten.
-Bei Kryptowährungen ist das anders! Alles Geld hat einen direkten Gegenwert, nämlich die Arbeit eines Computers. Stromkosten, Anschaffungskosten und Rechenzeit eines Computers stellen einen realen Gegenwert zu jeder erschaffenen Einheit dar. Neue Einheiten einer Kryptowährung erhält jeder, der seinen Computer zum Berechnen von neuen Blöcken zur Verfügung stellt. Diesen Vorgang nennt man „Minen“, also das „schürfen“ neuer Einheiten. (Ein eigener Beitrag zum Thema "Mining" folgt in kürze)
+Bei Kryptowährungen ist das anders! Alles Geld hat einen direkten Gegenwert, nämlich die Arbeit eines Computers. Die Berechnungszeit eines Computers stellen einen realen Gegenwert zu jeder erschaffenen Einheit dar. Neue Einheiten einer Kryptowährung erhält jeder, der seinen Computer zum Berechnen von neuen Blöcken zur Verfügung stellt. Diesen Vorgang nennt man „Minen“, also das „schürfen“ neuer Einheiten. (Ein eigener Beitrag zum Thema "Mining" folgt in kürze)
 
 Zudem sind Kryptowährungen meistens schon von Beginn an, auf eine maximale Anzahl von einzelnen Einheiten begrenzt. So kann es zum Beispiel nie mehr als 21 Millionen Bitcoins geben.
 Damit ist eine schnelle Entwertung des Geldes innerhalb einer Kryptowährung sehr viel unwahrscheinlicher als bei den etablierten Finanzsystemen und garantiert dadurch eine hohe Stabilität.
 
 #### Und wann kann man damit auch bezahlen?
 
-Die Entwicklung der Kryptowährungen begann schon 2008 mit Bitcoin und hat sich seitdem verbreitet und verbessert. Die Kryptowährungen bekommen laufend mehr Aufmerksamkeit und immer mehr Onlineshops und auch lokale Geschäfte akzeptieren die digitalen Währungen.
-
+Die Entwicklung der Kryptowährungen begann schon 2008 mit Bitcoin und hat sich seitdem weit verbreitet und verbessert. Kryptowährungen bekommen laufend mehr mediale Aufmerksamkeit und immer mehr Onlineshops und auch lokale Geschäfte akzeptieren die digitalen Währungen. Aber auch heute akzeptieren schon in vielen Shops die neuen Währungen.
 
 ##### Credits
 

@@ -1,6 +1,6 @@
 ---
-title: "Was ist eigentlich eine Cryptowährung?"
-description: "Eine einfache Erklärung zu Cryptowährungen"
+title: "Was ist eigentlich eine Kryptowährung?"
+description: "Eine einfache Erklärung zu Kryptowährungen und dem Unterschied zu bekannten Währungen"
 author: "Leonard Thiele"
 slug: "cryptocurrencies"
 published_at: 2017-07-20 15:00:00.000000Z
@@ -12,40 +12,45 @@ categories:
 header_image: "/artikel/cryptocurrencies/header.png"
 ---
 
-Cryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Cryptowährungen bieten die Möglichkeit, die bestehenden Finanzsysteme zu revolutionieren und wieder einen echten Gegenwert für eine genutzte Währung zu erschaffen.
+Kryptowährungen wie Bitcoin oder Ethereum werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.
 
-#### Cryptowährung
+#### Kryptowährung
 
-Eine Cryptowährung ist ganz einfach gesagt, eine digitale Währung.
-Mit Cryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währungen. Möchte ich etwas kaufen und der Verkäufer akzeptiert diese Cryptowährung, so kann ich ihm den geforderten Preis einfach auf sein digitales Konto überweisen.
+Eine Kryptowährung ist ganz einfach gesagt, eine digitale Währung.
+Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währungen. Möchte ich etwas kaufen und der Verkäufer akzeptiert diese Kryptowährung, so kann ich ihm den geforderten Preis einfach auf sein digitales Konto überweisen.
 
 #### Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?
 
-Bei Cryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Cryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortwährende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Cryptowährungen.
+Bei Kryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortwährende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
 
 #### Blockchain
 
-Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von Bitcoin zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Cryptowährungen.
+Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von Bitcoin zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.
 
 ![Blockchain Einfach](/artikel/cryptocurrencies/cryptocurrencies_block.png)
 
 #### Mein Konto
 
-Wie wir schon wissen, benötigen Cryptowährungen keine Bank, also muss man sich bei der Erstellung eines Kontos auch nirgendwo anmelden oder ausweisen. Das ist der Grund, warum viele Cryptowährungen auch komplett anonym sind.
+Wie wir schon wissen, benötigen Kryptowährungen keine Bank, also muss man sich bei der Erstellung eines Kontos auch nirgendwo anmelden oder ausweisen. Das ist der Grund, warum viele Kryptowährungen auch komplett anonym sind.
 
 Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wallets“ tun. Eine Wallet ist nichts anderes als ein Computerprogramm, mit welchem man Zugang zu der ausgewählten Währung hat. Wie die Bezeichnung vermuten lässt, kann man es sich wie ein Porte­mon­naie vorstellen, indem wir alle unsere Bankkarten aufbewahren.
 Bei der Erstellung eines Kontos werden zwei Schlüssel erzeugt. Einer dieser Schlüssel ist die öffentliche Adresse, die man weitergeben kann um Überweisungen zu erhalten, ähnlich einer Kontonummer.
 Der zweite Schlüssel ist geheim und darf niemals weitergegeben werden. Er ist der Schlüssel, mit welchem man selbst Überweisungen verschicken kann. Ähnlich des PINs einer Bankkarte. Wer diesen privaten Schlüssel besitzt, ist auch Besitzer des Kontos.
 
-Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze Liste und rechnet alle vergangenen Überweisungen zusammen und zeigt mir mein Ergebnis an.
-
+Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze Blockchain, rechnet alle vergangenen Überweisungen zusammen und zeigt mir dann meinen "Kontostand" an.
 
 #### Wie wird neues Geld erzeugt?
 
 Wenn Europa zum Beispiel neue Euros produzieren will, so kann die Europäische Zentralbank eine bestimmte Summe festlegen und diese ohne realen Gegenwert in das bestehende Finanzsystem einfließen lassen. Auch Banken handeln schon lange nicht mehr mit realen Gegenwerten.
-Bei Cryptowährungen ist das anders! Alles Geld hat einen direkten Gegenwert, nämlich die Arbeit eines Computers. Neue Einheiten einer Cryptowährung erhält jeder, der seinen Computer zum Berechnen von neuen Blöcken zur Verfügung stellt. Diesen Vorgang nennt man „Minen“, also das „schürfen“ neuer Einheiten.
+Bei Kryptowährungen ist das anders! Alles Geld hat einen direkten Gegenwert, nämlich die Arbeit eines Computers. Stromkosten, Anschaffungskosten und Rechenzeit eines Computers stellen einen realen Gegenwert zu jeder erschaffenen Einheit dar. Neue Einheiten einer Kryptowährung erhält jeder, der seinen Computer zum Berechnen von neuen Blöcken zur Verfügung stellt. Diesen Vorgang nennt man „Minen“, also das „schürfen“ neuer Einheiten. (Ein eigener Beitrag zum Thema "Mining" folgt in kürze)
+Zudem sind Kryptowährungen meistens schon von Beginn an, auf eine maximale Anzahl von einzelnen Einheiten begrenzt. So kann es zum Beispiel nie mehr als 21 Millionen Bitcoins geben.
 
-So ist auch eine schnelle Entwertung des Geldes innerhalb einer Cryptowährung sehr viel unwahrscheinlicher als bei den etablierten Finanzsystemen und garantiert dadurch eine hohe Stabilität.
+Damit ist eine schnelle Entwertung des Geldes innerhalb einer Kryptowährung sehr viel unwahrscheinlicher als bei den etablierten Finanzsystemen und garantiert dadurch eine hohe Stabilität.
+
+#### Und wann kann man damit auch bezahlen?
+
+Die Entwicklung der Kryptowährungen begann schon 2008 mit Bitcoin und hat sich seitdem verbreitet und verbessert. Viele weitere Kryptowährungen sind entstanden, die verschiedene Funktionalitäten bieten. Die Kryptowährungen bekommen laufend mehr Aufmerksamkeit und immer mehr Onlineshops und auch lokale Geschäfte akzeptieren die digitalen Währungen.
+
 
 ##### Credits
 

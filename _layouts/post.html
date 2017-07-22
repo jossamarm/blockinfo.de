@@ -19,13 +19,6 @@ comments: true
           <h1 class="header-post-title">{{ page.title }}</h1>
           <div class="header-post-author">von {{ author.name }}</div>
         </div>
-
-        <div id="post-feedback" class="hidden-print">
-          <span>Artikel verständlich?</span>
-          <button onclick="sendFeedback(event, 'up')">👍</button>
-          <button onclick="sendFeedback(event, 'down')">👎</button>
-          <button class="post-feedback-close" onclick="closeFeedback()">X</button>
-        </div>
       </div>
     </div>
 
@@ -34,6 +27,12 @@ comments: true
 
         {{ content }}
         <br>
+        <div id="post-feedback" class="hidden-print">
+          <span>Artikel verständlich?</span>
+          <button onclick="sendFeedback(event, 'up')">👍</button>
+          <button onclick="sendFeedback(event, 'down')">👎</button>
+        </div>
+
         {% comment %}
         {% include _author.html %}
         {% endcomment %}

@@ -1,5 +1,4 @@
 #post-feedback {
-  position: fixed;
   background: #FFF;
   text-align: center;
   left: 0;
@@ -11,6 +10,7 @@
 }
 
 #post-feedback button {
+  text-align: center;
   height: 30px;
   width: 30px;
   border: 2px solid #DDD;
@@ -22,6 +22,5 @@
 .post-feedback-close {
   right: 5px;
   bottom: 7px;
-  position: fixed;
   color: #999;
 }

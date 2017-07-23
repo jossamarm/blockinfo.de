@@ -21,7 +21,9 @@ Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währung
 
 #### Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?
 
-Bei Kryptowährungen gibt es keine Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
+Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
+
+![Bitcoin Transaktionen](/artikel/cryptocurrencies/bitcoin-transactions.png)
 
 #### Blockchain
 

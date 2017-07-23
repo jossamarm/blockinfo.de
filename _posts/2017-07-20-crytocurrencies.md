@@ -2,7 +2,7 @@
 title: "Was ist eigentlich eine Kryptowährung?"
 description: "Eine einfache Erklärung zu Kryptowährungen und dem Unterschied zu bekannten Währungen"
 author: "Leonard Thiele"
-slug: "cryptocurrencies"
+slug: "Kryptowährung-einfach-erklärt"
 published_at: 2017-07-20 15:00:00.000000Z
 language: de
 categories:

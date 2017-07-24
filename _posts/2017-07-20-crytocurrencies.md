@@ -15,7 +15,7 @@ header_image: "/artikel/cryptocurrencies/header.png"
 <meta name="twitter:site" content="@Blockinfo" />
 <meta name="twitter:title" content="Was ist eigentlich eine Kryptowährung?" />
 <meta name="twitter:description" content="Eine einfache Erklärung zu Kryptowährungen und dem Unterschied zu bekannten Währungen" />
-<meta name="twitter:image" content="http://http://blockinfo.de/artikel/cryptocurrencies/header.png" />
+<meta property="og:image" content="http://http://blockinfo.de/artikel/cryptocurrencies/header.png" />
 
 Kryptowährungen wie [Bitcoin](/artikel/bitcoin-einfach-erklaert) oder [Ethereum](/artikel/ethereum-einfach-erklaert) werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.
 

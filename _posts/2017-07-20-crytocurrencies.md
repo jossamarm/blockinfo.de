@@ -11,11 +11,6 @@ categories:
   - cryptocurrencies
 header_image: "/artikel/cryptocurrencies/header.png"
 ---
-<meta property="og:url"                content="http://www.blockinfo.de/artikel/kryptowaehrung-einfach-erklaert/" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="Was ist eigentlich eine Kryptowährung?" />
-<meta property="og:description"        content="Eine einfache Erklärung zu Kryptowährungen und dem Unterschied zu bekannten Währungen" />
-<meta property="og:image"              content="http://www.blockinfo.de/artikel/cryptocurrencies/header.png" />
 
 Kryptowährungen wie [Bitcoin](/artikel/bitcoin-einfach-erklaert) oder [Ethereum](/artikel/ethereum-einfach-erklaert) werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.
 

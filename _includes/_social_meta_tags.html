@@ -1,8 +1,8 @@
 <!-- Facebook Tags -->
 {% if page.layout == "post" %}
-  <meta name="og:title" content="{{ page.title }} - {{site.title}}">
+  <meta property="og:title" content="{{ page.title }} - {{site.title}}">
 {% else %}
-  <meta name="og:title" content="{{site.title}} → {{ page.title }}">
+  <meta property="og:title" content="{{site.title}} → {{ page.title }}">
 {% endif %}
 
 {% if page.description %}

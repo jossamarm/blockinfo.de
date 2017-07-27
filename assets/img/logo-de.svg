@@ -1,15 +1,8 @@
-<svg width="581" height="213" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="#ffffff" id="canvas_background" height="215" width="583" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+<svg height="96" width="96" xmlns="http://www.w3.org/2000/svg">
+  <g id="blockInfoImg" stroke="#0063c3" stroke-width="0" fill="none" transform="translate(-6) rotate(90 48,48)">
+    <path id="hexagon" d="M0 48L24 90L72 90L96 48L72 6L24 6Z M30 48L39 64L57 64L66 48L57 32L39 32Z" fill="none" fill-rule="evenodd"></path>
+    <path id="hexUpLeft" d="M0 48L24 90L72 90L57 64L39 64L30 48Z" fill="#0082ff"></path>
+    <path id="hexUpRight" d="M0 48L24 6L72 6L57 32L39 32L30 48Z" fill="#0063c3"></path>
+    <path id="hexDown" d="M72 6L96 48L72 90L57 64L66 48L57 32Z" fill="#004990"></path>
   </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <rect fill-opacity="0" stroke="#5796e3" id="svg_1" height="115" width="114.999989" y="45.907814" x="9.25" stroke-width="18.5" fill="#0fffff"/>
-  <text stroke="#000000" transform="matrix(7.659430069111317,0,0,7.728290057311825,-1849.412318485588,-1266.7038771688788) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="185.9339" x="260.045498" stroke-width="0" fill="#5796e3">INFO</text>
- </g>
 </svg>

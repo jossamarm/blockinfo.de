@@ -4,3 +4,6 @@ Sitemap: {{ "sitemap.xml" | absolute_url }}
 
 User-agent: Twitterbot
 Disallow:
+
+User-agent: *
+Disallow: /

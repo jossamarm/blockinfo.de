@@ -1,4 +1,12 @@
 <!-- Facebook Tags -->
+<meta property="og:url" content="{{ site.url }}{{ page.url}}" />
+
+{% if page.layout == "post" %}
+  <meta property="og:type" content="article" />
+{% else %}
+  <meta property="og:type" content="website" />
+{% endif %}
+
 {% if page.layout == "post" %}
   <meta property="og:title" content="{{ page.title }} - {{site.title}}">
 {% else %}
@@ -7,13 +15,6 @@
 
 {% if page.description %}
   <meta property="og:description" content="{{ page.description }}">
-{% endif %}
-
-<meta property="og:url" content="{{ site.url }}{{ page.url}}" />
-{% if page.layout == "post" %}
-  <meta property="og:type" content="article" />
-{% else %}
-  <meta property="og:type" content="website" />
 {% endif %}
 
 {% if page.header_image %}

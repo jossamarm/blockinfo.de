@@ -18,7 +18,8 @@
 {% endif %}
 
 {% if page.header_image %}
-  <meta property="og:image" content="{{ site.baseurl }}{{ page.header_image }}" />
+  <meta property="og:image:url" content="{{ site.baseurl }}{{ page.header_image }}" />
+  <meta property="og:image:type" content="image/png" />
 {% else %}
   <meta property="og:image" content="{{ site.baseurl }}/assets/img/facebook-share.png" />
 {% endif %}

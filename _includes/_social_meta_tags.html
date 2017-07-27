@@ -17,7 +17,8 @@
 {% endif %}
 
 {% if page.header_image %}
-  <meta property="og:image" content="{{ site.url }}{{ page.header_image }}" />
+  <meta property="og:image:secure_url" content="{{ site.url }}{{ page.header_image }}" />
+  <meta property="og:image:type" content="image/png" /> 
 {% else %}
   <meta property="og:image" content="{{ site.url }}assets/img/facebook-share.png" />
 {% endif %}
@@ -31,8 +32,8 @@
   <meta name="twitter:title" content="{{site.title}} → {{ page.title }}">
 {% endif %}
 
-{% comment %}<meta name="twitter:site" content="@angularjs_de">{% endcomment %}
-{% comment %}<meta name="twitter:creator" content="@angularjs_de">{% endcomment %}
+{% comment %}<meta name="twitter:site" content="@Blockinfo_DE">{% endcomment %}
+{% comment %}<meta name="twitter:creator" content="@Blockinfo_DE">{% endcomment %}
 {% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">
 {% endif %}

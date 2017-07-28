@@ -1,25 +1,54 @@
 <footer class="hidden-print">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="/einsteiger/">Für Einsteiger</a></li>
-            <li class="list-inline-item"><a href="/artikel/">Alle Artikel</a></li>
-            <li class="list-inline-item"><a href="/thema-vorschlagen/">Thema vorschlagen</a></li>
-          </ul>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-8">
-          <span class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Blockinfo.de. Alle Rechte vorbehalten.</span>
-        </div>
-        <div class="col-md-4 text-right">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
-            <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
-          </ul>
-        </div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 center-block text-center">
+        <ul class="list-inline">
+          <li>
+            {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <i class="fa fa-facebook fa-3x fa-fw"></i>
+            </a>
+            {% endif %}
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <i class="fa fa-twitter fa-3x fa-fw"></i>
+            </a>
+            {% endif %}
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+              <i class="fa fa-github fa-3x fa-fw"></i>
+            </a>
+            {% endif %}
+            {% if site.envelope_username %}
+            <a href="mailto:{{ site.envelope_username }}">
+              <i class="fa fa-envelope fa-3x fa-fw"></i>
+            </a>
+            {% endif %}
+          </li>
+        </ul>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 center-block text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="/einsteiger/">Für Einsteiger</a></li>
+          <li class="list-inline-item"><a href="/artikel/">Alle Artikel</a></li>
+          <li class="list-inline-item"><a href="/thema-vorschlagen/">Thema vorschlagen</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-8">
+        <span class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Blockinfo.de. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="col-md-4 text-right">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
+          <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>

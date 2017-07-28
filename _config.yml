@@ -2,8 +2,9 @@ title: Blockinfo.de
 description: ""
 url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
 url_http: "http://blockinfo.de"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Blockinfo_DE
+github_username: blockchain-info
+envelope_username: info@blockinfo.de
 ga_property: "UA-102954545-1"
 permalink: /artikel/:slug/
 repository_url: "https://github.com/blockchain-info/blockinfo.de"

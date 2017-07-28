@@ -1,7 +1,7 @@
 title: Blockinfo.de
 description: ""
 url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "http://blockinfo.de"
+url_http: "http://blockinfo.de"
 twitter_username: jekyllrb
 github_username:  jekyll
 ga_property: "UA-102954545-1"

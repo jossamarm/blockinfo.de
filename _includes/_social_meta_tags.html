@@ -18,7 +18,7 @@
 {% endif %}
 
 {% if page.header_image %}
-  <meta property="og:image" content="{{ site.url_http }}{{ page.header_image }}" />
+  <meta property="og:image" content="{{ site.url_http }}{{ page.thumbnail_image }}" />
 {% else %}
   <meta property="og:image" content="{{ site.url_http }}/assets/img/logo-thumbnail.jpg" />
 {% endif %}
@@ -38,7 +38,7 @@
   <meta name="twitter:description" content="{{ page.description }}">
 {% endif %}
 {% if page.header_image %}
-  <meta name="twitter:image" content="{{ site.url_http }}{{ page.header_image }}">
+  <meta name="twitter:image" content="{{ site.url_http }}{{ page.thumbnail_image }}">
 {% else %}
   <meta property="twitter:image" content="{{ site.url_http }}/assets/img/logo-thumbnail.jpg" />
 {% endif %}

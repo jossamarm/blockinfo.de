@@ -18,10 +18,10 @@
 {% endif %}
 
 {% if page.header_image %}
-  <meta property="og:image:url" content="{{ site.url_http }}{{ page.header_image }}" />
+  <meta property="og:image:url" content="{{ site.url_http }}{{ page.thumbnail_image }}" />
   <meta property="og:image:type" content="image/png" />
 {% else %}
-  <meta property="og:image:url" content="{{ site.url_http }}/assets/img/logo-de-notext.png" />
+  <meta property="og:image:url" content="{{ site.url_http }}/assets/img/logo-thumbnail.png" />
   <meta property="og:image:type" content="image/png" />
 {% endif %}
 
@@ -40,7 +40,7 @@
   <meta name="twitter:description" content="{{ page.description }}">
 {% endif %}
 {% if page.header_image %}
-  <meta name="twitter:image" content="{{ site.url_http }}{{ page.header_image }}">
+  <meta name="twitter:image" content="{{ site.url_http }}{{ page.thumbnail_image }}">
 {% else %}
   <meta property="twitter:image" content="{{ site.url_http }}/assets/img/logo-de-notext.png" />
 {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Blockhain-Informationen einfach
-description: Alles rund um Blockchain!
+title: home.title
+description: home.description
 permalink: /
 ---
 <main>
@@ -13,7 +13,7 @@ permalink: /
         </div>
         <div class="col-md-8 hero-text">
           <h1 class="hero-text-title"><strong>Blockinfo</strong></h1>
-          <h2 class="hero-text-slogan">Themen rund um Blockchain, einfach erklärt!</h2>
+          <h2 class="hero-text-slogan">{% translate home.headline %}.</h2>
         </div>
       </div>
     </div>
@@ -23,11 +23,7 @@ permalink: /
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h3 class="home-section-headline">Blockchain, Kryptowährungen du verstehst einfach nicht warum alle davon reden?</h3>
-          <p>
-            Die Themen rund um Blockchain werden immer alltäglicher und es kommen dabei viele Fragen auf. Wir versuchen mit <strong> Blockinfo.de </strong>
-            eine Platform zu schaffen, auf der ihr ganz einfach und auch ohne technisches Wissen verstehen könnt worum es sich bei Begriffen wie "Blockchain", "Kryptowährungen", "Bitcoin" und vielem mehr handelt.
-          </p>
+          {% translate_file home/intro.md %}
           <br>
         </div>
       </div>
@@ -39,7 +35,7 @@ permalink: /
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="home-section-headline">Aktuelle Artikel</h2>
+          <h2 class="home-section-headline">{% translate home.current_articles %}</h2>
         </div>
       </div>
       <br>
@@ -55,7 +51,7 @@ permalink: /
       <br>
       <div class="row text-center">
         <div class="col-md-12">
-          <a class="button" href="/artikel/">Alle Artikel ansehen</a>
+          <a class="button" href="/article/">{% translate home.view_articles %}</a>
         </div>
       </div>
     </div>
@@ -65,11 +61,11 @@ permalink: /
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <span class="home-author-title">Du hast Ideen für neue Artikel?<br>
-          <span class="home-author-subtitle">Wir freuen uns auf deine Nachricht!</span>
+          <span class="home-author-title">{% translate home.new_idea %}<br>
+          <span class="home-author-subtitle">{% translate home.message %}</span>
           <br>
           <br>
-          <a href="/thema-vorschlagen/" class="button">Thema vorschlagen</a>
+          <a href="/suggest-topic/" class="button">{% translate navigation.new_topic%}</a>
         </div>
       </div>
     </div>

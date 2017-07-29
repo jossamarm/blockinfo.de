@@ -6,29 +6,28 @@ twitter_username: Blockinfo_DE
 github_username: blockchain-info
 envelope_username: info@blockinfo.de
 ga_property: "UA-102954545-1"
-permalink: /artikel/:slug/
+permalink: /article/:slug/
 repository_url: "https://github.com/blockchain-info/blockinfo.de"
 twitter_url: https://twitter.com
 ws_course_id: 17
 custom_search_id: "011221661346354572919:zpf1hzv67my"
 
+languages: ["de", "en"]
+
 collections:
-  books:
-    output: true
-    permalink: /buecher/:path/
   pages:
     output: true
     permalink: /:name/
 
 defaults:
   - scope:
-      path: "_posts" # an empty string here means all files in the project
+      path: "_i18n/de/_posts" # an empty string here means all files in the project
     values:
       layout: "post"
   - scope:
-      path: "_books" # an empty string here means all files in the project
+      path: "_i18n/en/_posts" # an empty string here means all files in the project
     values:
-      layout: "chapter"
+      layout: "post"
   - scope:
       path: "_pages" # an empty string here means all files in the project
     values:
@@ -53,6 +52,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - jekyll-contentblocks
+  - jekyll-multiple-languages-plugin
 exclude:
   - Gemfile
   - Gemfile.lock

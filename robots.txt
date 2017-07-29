@@ -5,5 +5,8 @@ Sitemap: {{ "sitemap.xml" | absolute_url }}
 User-agent: Twitterbot
 Disallow:
 
+User-agent: Facebot
+Disallow:
+
 User-agent: *
 Disallow: /

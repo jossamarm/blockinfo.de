@@ -10,7 +10,6 @@ categories:
   - blockchain
   - cryptocurrencies
 header_image: "/artikel/cryptocurrencies/header.png"
-thumbnail_image: "/artikel/cryptocurrencies/thumbnail.png"
 ---
 
 Kryptowährungen wie [Bitcoin](/artikel/bitcoin-einfach-erklaert) oder [Ethereum](/artikel/ethereum-einfach-erklaert) werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.

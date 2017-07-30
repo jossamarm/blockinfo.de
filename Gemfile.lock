@@ -27,8 +27,6 @@ GEM
       jekyll
     jekyll-feed (0.9.1)
       jekyll (~> 3.3)
-    jekyll-multiple-languages-plugin (1.5.1)
-      jekyll (>= 2.0, < 4.0)
     jekyll-paginate-v2 (1.7.4)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
@@ -60,7 +58,6 @@ DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-contentblocks
   jekyll-feed (~> 0.6)
-  jekyll-multiple-languages-plugin
   jekyll-paginate-v2
   jekyll-sitemap
   tzinfo-data

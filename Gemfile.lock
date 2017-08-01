@@ -36,6 +36,9 @@ GEM
     jekyll-sitemap (0.10.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    jgd (1.10)
+      jekyll (>= 1.5.1)
+      trollop (= 2.1.2)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
@@ -51,6 +54,7 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    trollop (2.1.2)
 
 PLATFORMS
   ruby
@@ -63,10 +67,11 @@ DEPENDENCIES
   jekyll-multiple-languages-plugin
   jekyll-paginate-v2
   jekyll-sitemap
+  jgd
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.0.0p648
+   ruby 2.2.2p95
 
 BUNDLED WITH
    1.15.1

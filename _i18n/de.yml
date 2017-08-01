@@ -1,0 +1,40 @@
+global:
+  english: Englisch
+  german: Deutsch
+  italian: Italienisch
+  spanish: Spanisch
+navigation:
+  beginner: Einsteiger
+  all_articles: Alle Artikel
+  new_topic: Thema vorschlagen
+footer:
+  allrights: Alle Rechte vorbehalten
+  impressum: Impressum
+  privacy: Datenschutz
+home:
+  title: Blockchain-Informationen einfach erklärt
+  description: Alles rund um Blockchain
+  headline: Themen rund um Blockchain, einfach erklärt
+  current_articles: Aktuelle Artikel
+  view_articles: Alle Artikel ansehen
+  new_idea: Du hast Ideen für neue Artikel?
+  message: Wir freuen uns auf deine Nachricht!
+beginner:
+  header: Einsteiger Artikel
+  title: Einsteiger Artikel
+  description: Hier findest du alle Artikel zum Thema Blockchain und mehr für Einsteiger
+article:
+  title: Alle Artikel
+  description: Themen rund um Blockchain, einfach erklärt
+suggest_topic:
+  title: Schlag uns ein Thema vor
+  description: Wir wollen über deinen Vorschlag schreiben
+card_information:
+  reading_time: Lesezeit
+  minute: min
+post:
+  continue: Weiterlesen
+  from: von
+  helpful: Artikel verständlich?
+  improve: Diesen Artikel auf GitHub verbessern
+  orig: Original gepostet von

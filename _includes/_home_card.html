@@ -2,11 +2,22 @@
 
 <article class="home-card">
   <h3 class="home-card-title">
-    <a class="home-card-link" title="{{post.title}}" href="{{ post.url }}">
-      <span class="home-card-background" style="background-image: url('{{post.header_image}}');"></span>
-      <span class="home-card-title">{{post.title}}</span>
-      <br>
-      <span class="home-card-subtitle">von {{post.author}}</span>
-    </a>
+    {% if site.lang == "de" %}
+      {% capture home_card_link_de %}{{site.baseurl_root}}{{ post.url }}{% endcapture %}
+      <a class="home-card-link" title="{{post.title}}" href="{{ home_card_link_de }}">
+        <span class="home-card-background" style="background-image: url('{{post.header_image}}');"></span>
+        <span class="home-card-title">{{post.title}}</span>
+        <br>
+        <span class="home-card-subtitle">{% translate post.from %} {{post.author}}</span>
+      </a>
+    {% elsif site.lang != "de" %}
+      {% capture home_card_link %}{{site.baseurl}}{{ post.url }}{% endcapture %}
+      <a class="home-card-link" title="{{post.title}}" href="{{ home_card_link }}">
+        <span class="home-card-background" style="background-image: url('{{post.header_image}}');"></span>
+        <span class="home-card-title">{{post.title}}</span>
+        <br>
+        <span class="home-card-subtitle">{% translate post.from %} {{post.author}}</span>
+      </a>
+    {% endif %}
   </h3>
 </article>

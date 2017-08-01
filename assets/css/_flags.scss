@@ -1,0 +1,36 @@
+$flag-icon-css-path: '../img/flags' !default;
+
+.flag-icon-background {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+}
+
+.flag-icon {
+  @extend .flag-icon-background;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 0 0.2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+@mixin flag-icon($country) {
+  .flag-icon-#{$country} {
+    background-image: url(#{$flag-icon-css-path}/#{$country}.svg);
+  }
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+   filter: grayscale(100%);
+}
+
+@include flag-icon(de);
+@include flag-icon(it);
+@include flag-icon(es);
+@include flag-icon(us);

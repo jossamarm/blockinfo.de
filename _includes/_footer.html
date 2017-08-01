@@ -8,23 +8,16 @@
             {% if site.facebook_username %}
             <a href="https://www.facebook.com/{{ site.facebook_username }}">
               <i class="fa fa-facebook fa-3x fa-fw"></i>
-            </a>
-            {% endif %}
-            {% if site.twitter_username %}
+            </a> {% endif %} {% if site.twitter_username %}
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <i class="fa fa-twitter fa-3x fa-fw"></i>
-            </a>
-            {% endif %}
-            {% if site.github_username %}
+            </a> {% endif %} {% if site.github_username %}
             <a href="https://github.com/{{ site.github_username }}">
               <i class="fa fa-github fa-3x fa-fw"></i>
-            </a>
-            {% endif %}
-            {% if site.envelope_username %}
+            </a> {% endif %} {% if site.envelope_username %}
             <a href="mailto:{{ site.envelope_username }}">
               <i class="fa fa-envelope fa-3x fa-fw"></i>
-            </a>
-            {% endif %}
+            </a> {% endif %}
           </li>
         </ul>
       </div>
@@ -32,21 +25,69 @@
     <div class="row">
       <div class="col-md-12 center-block text-center">
         <ul class="list-inline">
-          <li class="list-inline-item"><a href="/einsteiger/">Für Einsteiger</a></li>
-          <li class="list-inline-item"><a href="/artikel/">Alle Artikel</a></li>
-          <li class="list-inline-item"><a href="/thema-vorschlagen/">Thema vorschlagen</a></li>
+          {% if site.lang == "de" %}
+            {% capture beginner_link_de %}{{site.baseurl_root}}/beginner{% endcapture %}
+            <li class="list-inline-item"><a href="{{beginner_link_de}}">{% translate navigation.beginner %}</a></li>
+          {% elsif site.lang != "de" %}
+            {% capture beginner_link %}{{site.baseurl}}/beginner{% endcapture %}
+            <li class="list-inline-item"><a href="{{beginner_link}}">{% translate navigation.beginner %}</a></li>
+          {% endif %}
+          {% if site.lang == "de" %}
+            {% capture all_articles_link_de %}{{site.baseurl_root}}/article{% endcapture %}
+            <li class="list-inline-item"><a href="{{all_articles_link_de}}">{% translate navigation.all_articles %}</a></li>
+          {% elsif site.lang != "de" %}
+            {% capture all_articles_link %}{{site.baseurl}}/article{% endcapture %}
+            <li class="list-inline-item"><a href="{{all_articles_link}}">{% translate navigation.all_articles %}</a></li>
+          {% endif %}
+          {% if site.lang == "de" %}
+            {% capture suggest-topic_link_de %}{{site.baseurl_root}}/suggest-topic{% endcapture %}
+            <li class="list-inline-item"><a href="{{suggest-topic_link_de}}">{% translate navigation.new_topic %}</a></li>
+          {% elsif site.lang != "de" %}
+            {% capture suggest-topic_link %}{{site.baseurl}}/suggest-topic{% endcapture %}
+            <li class="list-inline-item"><a href="{{suggest-topic_link}}">{% translate navigation.new_topic %}</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>
     <br>
     <div class="row">
+      <div class="col-md-12 text-right">
+
+        {% capture de_link %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+        <a href="{{ de_link }}" ><i class="flag-icon flag-icon-de"></i></a>
+        {% capture en_link %}{{ site.url }}/en{{ page.url}}{% endcapture %}
+        <a href="{{ en_link }}" ><i class="flag-icon flag-icon-us"></i></a>
+
+        <a href="" class="not-active">
+          <i class="flag-icon flag-icon-it"></i>
+        </a>
+        <a href="" class="not-active">
+          <i class="flag-icon flag-icon-es"></i>
+        </a>
+
+      </div>
+    </div>
+    <br>
+    <div class="row">
       <div class="col-md-8">
-        <span class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Blockinfo.de. Alle Rechte vorbehalten.</span>
+        <span class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Blockinfo.de {% translate footer.allrights %}.</span>
       </div>
       <div class="col-md-4 text-right">
         <ul class="list-inline">
-          <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
-          <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
+          {% if site.lang == "de" %}
+            {% capture impressum_link_de %}{{site.baseurl_root}}/impressum{% endcapture %}
+            <li class="list-inline-item"><a href="{{impressum_link_de}}">{% translate footer.impressum %}</a></li>
+          {% elsif site.lang != "de" %}
+            {% capture impressum_link %}{{site.baseurl}}/impressum{% endcapture %}
+            <li class="list-inline-item"><a href="{{impressum_link}}">{% translate footer.impressum %}</a></li>
+          {% endif %}
+          {% if site.lang == "de" %}
+            {% capture privacy_link_de %}{{site.baseurl_root}}/privacy{% endcapture %}
+            <li class="list-inline-item"><a href="{{privacy_link_de}}">{% translate footer.privacy %}</a></li>
+          {% elsif site.lang != "de" %}
+            {% capture privacy_link %}{{site.baseurl}}/privacy{% endcapture %}
+            <li class="list-inline-item"><a href="{{privacy_link}}">{% translate footer.privacy %}</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>

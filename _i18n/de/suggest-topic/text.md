@@ -1,12 +1,3 @@
----
-title: Schlag uns ein Thema vor!
-description: Wir wollen über deinen Vorschlag schreiben!
-noindex: true
-sitemap: false
-layout: base
----
-
-<main>
   <div class="container">
     <br>
     <div class="row">
@@ -36,14 +27,4 @@ layout: base
       </div>
     </div>
     <br>
-<!--     <div class="text-center">
-      <a href="#google-form" class="button-brand">Thema vorschlagen</a>
-    </div> -->
   </div>
-  <iframe src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeiLDl-FDrGv9AWaZroK2Bk_SdSO-uU8x1RFDis2SUJWjPvwg/viewform?embedded=true" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF;">Loading...</iframe>
-
-</main>
-
-<br>
-
-<!-- <h1 id="google-form">&nbsp;</h1> -->

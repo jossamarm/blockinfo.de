@@ -1,28 +1,54 @@
 <nav id="header" data-headroom class="navbar navbar-toggleable-sm fixed-top headroom headroom--pinned">
   <div class="container">
-    <a class="navbar-brand" href="/">
 
-      <img src="/assets/img/logo-de.png" height="40px">
-    </a>
+    {% if site.lang == "de" %}
+      {% capture root_link_de %}{{site.url}}{% endcapture %}
+      <a class="navbar-brand" href="{{root_link_de}}"><img src="/assets/img/logo-de.png" height="40px"></a>
+    {% elsif site.lang != "de" %}
+      {% capture root_link %}{{site.url}}/{{site.lang}}{% endcapture %}
+      <a class="navbar-brand" href="{{root_link}}"><img src="/assets/img/logo-de.png" height="40px"></a>
+    {% endif %}
+
     <button class="hidden-print navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <img src="/assets/img/nav-burger.svg" height="20px">
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item {% if page.url contains '/einsteiger' %}active{% endif %}">
-          <a class="nav-link" href="/einsteiger/">Für Einsteiger</a>
+        <li class="nav-item {% if page.url contains '/beginner' %}active{% endif %}">
+
+        {% if site.lang == "de" %}
+          {% capture beginner_link_de %}{{site.baseurl_root}}/beginner{% endcapture %}
+          <a class="nav-link" href="{{ beginner_link_de }}">{% translate navigation.beginner %}</a>
+        {% elsif site.lang != "de" %}
+          {% capture beginner_link %}{{site.baseurl}}/beginner{% endcapture %}
+          <a class="nav-link" href="{{ beginner_link }}">{% translate navigation.beginner %}</a>
+        {% endif %}
+
         </li>
-        <li class="nav-item {% if page.url contains '/artikel' %}active{% endif %}">
-          <a class="nav-link" href="/artikel/">Alle Artikel</a>
+        <li class="nav-item {% if page.url contains '/article' %}active{% endif %}">
+
+          {% if site.lang == "de" %}
+            {% capture all_articles_link_de %}{{site.baseurl_root}}/article{% endcapture %}
+            <a class="nav-link" href="{{ all_articles_link_de }}">{% translate navigation.all_articles %}</a>
+          {% elsif site.lang != "de" %}
+            {% capture all_articles_link %}{{site.baseurl}}/article{% endcapture %}
+            <a class="nav-link" href="{{ all_articles_link }}">{% translate navigation.all_articles %}</a>
+          {% endif %}
+
         </li>
       </ul>
-
       <ul class="navbar-nav mr-2 hidden-sm">
-        <li class="nav-item {% if page.url contains '/thema-vorschlagen' %}active{% endif %}">
-          <a class="nav-link" href="/thema-vorschlagen/" title="Autor werden">
-            Thema vorschlagen
-          </a>
+        <li class="nav-item {% if page.url contains '/suggest-topic' %}active{% endif %}">
+
+          {% if site.lang == "de" %}
+            {% capture suggest-topic_link_de %}{{site.baseurl_root}}/suggest-topic{% endcapture %}
+            <a class="nav-link" href="{{ suggest-topic_link_de }}">{% translate navigation.new_topic %}</a>
+          {% elsif site.lang != "de" %}
+            {% capture suggest-topic_link %}{{site.baseurl}}/suggest-topic{% endcapture %}
+            <a class="nav-link" href="{{ suggest-topic_link }}">{% translate navigation.new_topic %}</a>
+          {% endif %}
+
         </li>
       </ul>
     </div>

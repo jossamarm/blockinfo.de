@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/en/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/en/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-08-01T20:43:19+02:00</updated><id>http://localhost:4000/en/</id><title type="html">Blockinfo.de</title><subtitle></subtitle><entry><title type="html">Was ist Ethereum?</title><link href="http://localhost:4000/en/article/ethereum/" rel="alternate" type="text/html" title="Was ist Ethereum?" /><published>2017-07-23T00:00:00+02:00</published><updated>2017-07-23T00:00:00+02:00</updated><id>http://localhost:4000/en/article/ethereum</id><content type="html" xml:base="http://localhost:4000/en/article/ethereum/">&lt;p&gt;Ethereum ist eine von Vitalik Buterin im Jahr 2015 entwickelte Plattform für digitale Verträge. In Ethereum eingebunden ist auch die &lt;a href=&quot;/en/article/cryptocurrencie&quot;&gt;Kryptowährung&lt;/a&gt; “Ether”. Mit Ether können auch Überweisungen, wie in anderen Kryptowährungen, abgewickelt werden. Ethereum stellt auch gleichzeitig die zweitgrößte Kryptowährung dar. Die Plattform Ethereum ist gegenüber dem Bitcoin sehr interessant durch seine zusätzlichen Funktionen. Bei dem Start von Ethereum erhielt das Projekt rund 18 Mio. Dollar Startkapital durch ein Crowdfunding.&lt;/p&gt;
+
+&lt;h4 id=&quot;die-wichtigsten-daten&quot;&gt;Die wichtigsten Daten&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Name&lt;/td&gt;
+      &lt;td&gt;   Ethereum (ETH)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Entstehungsjahr&lt;/td&gt;
+      &lt;td&gt;   2015&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kleinste Einheit&lt;/td&gt;
+      &lt;td&gt;   0,000000000000000001 ETH (17 Nullen)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Blockzeit&lt;/td&gt;
+      &lt;td&gt;   12 Sekunden&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Verfügbar/Gesamt&lt;/td&gt;
+      &lt;td&gt;   93,5 Mio. / Keine Begrenzung&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Website&lt;/td&gt;
+      &lt;td&gt;   &lt;a href=&quot;https://ethereum.org/&quot; target=&quot;_blank&quot;&gt;www.ethereum.org&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Die folgenden Daten stammen von der Website &lt;a href=&quot;https://coinmarketcap.com/currencies/ethereum/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt; und stellen den aktuellen Wert eines Ethers in Euro, den Rang, das Martkapital und das in den letzten 24h gehandelte Volumen dar.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://files.coinmarketcap.com/static/widget/currency.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;coinmarketcap-currency-widget&quot; data-currency=&quot;ethereum&quot; data-base=&quot;EUR&quot; data-secondary=&quot;&quot; data-ticker=&quot;true&quot; data-rank=&quot;true&quot; data-marketcap=&quot;true&quot; data-volume=&quot;true&quot; data-stats=&quot;EUR&quot; data-statsticker=&quot;false&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
+
+&lt;p&gt;Ethereum basiert auf einer Blockchain und dient zum abwickeln von digitalen Verträgen (Smart Contracts). Ähnlich wie &lt;a href=&quot;/article/bitcoin-einfach-erklaert&quot;&gt;Bitcoin&lt;/a&gt; braucht Ethereum also auch keine zentrale Verwaltung oder Bank. Ethereum versucht aber nicht nur die finanziellen Geschäfte wieder in unsere Kontrolle zu bringen, sondern auch die Abwicklung von Verträgen und Übereinkommen.
+Jeder Ethereum-Nutzer hat wieder eine öffentliche Adresse, die er bekannt geben kann um zum Beispiel Ether zu erhalten. Der private, geheime Schlüssel dient dazu Überweisungen zu verschicken oder Verträge zu signieren, ähnlich einer Unterschrift auf einem Dokument.&lt;/p&gt;
+
+&lt;p&gt;Eine öffentliche Ethereum-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;168bc315a2er09052d83d1c5811n533620031f67
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Eine Überweisung muss aber nicht immer ganze Ether enthalten. Will man nur einen halben oder ein viertel eines Ethers überweisen ist das auch möglich. Die kleinste mögliche Einheit bei Ether ist 0,000000000000000001 Ether und wird “Wei” genannt. Jeder Ether lässt sich also maximal in 1.000.000.000.000.000.000 (1 Trillion) Teile unterteilen.&lt;/p&gt;
+
+&lt;h4 id=&quot;smart-contracts&quot;&gt;Smart Contracts&lt;/h4&gt;
+
+&lt;p&gt;Ein Smart Contract, also ein “intelligenter Vertrag” bietet die Möglichkeit sichere, schnelle Verträge mit Vertragspartnern zu schließen ohne eine reale Unterschrift, oder einen komplizierten Vorgang auf Papier. Noch wichtiger, es gibt keine zentrale Verwaltung dieser Verträge und kein Dritter profitiert davon.&lt;/p&gt;
+
+&lt;p&gt;Die Blockchain von Ethereum ermöglicht es, nicht nur Überweisungen in die Blockchain zu schreiben, sondern auch kleine Computerprogramme, welche Bedingungen selbständig überprüfen und Anweisungen ausführen. So kann zum Beispiel ein Lizenzkauf für eine Software, der eine monatliche Zahlung vorsieht über einen Smart Contract abgeschlossen werden. Nur wenn die Zahlung geleistet wird, ist die Vertragsbedingung eingehalten und der Vertrag ist gültig.
+Auch viele andere Bereiche könnten die intelligenten Verträge von Ethereum vereinfachen, wie zum Beispiel die Energieversorgung und dessen Abrechnung, der Vertrieb und die Bezahlung von Apps oder als sichere Bezahlung für andere Leistungen. Auch können viele Andwendungen im Bereich der sicheren und vertraulichen Speicherung von privaten Daten durch Ethereum unterstützt werden.&lt;/p&gt;
+
+&lt;p&gt;Ethereum wurde mit der Technologie der individuellen, digitalen Verträgen ausgestattet um auch Lösung für einige zukünftige Probleme zu sein. Die Individualisierung und Erweiterbarkeit stellen dazu die Grundlage dar.&lt;/p&gt;
+
+&lt;h4 id=&quot;mining&quot;&gt;Mining&lt;/h4&gt;
+
+&lt;p&gt;Das Berechnen neuer Blöcke von Ethereum benötigt viel Rechenleistung. Hierzu stellt ein ganzes Netzwerk von unabhängigen, freiwilligen “Minern” ihre Computer zur Verfügung.
+Jeder, der seinen Computer zum Berechnen von neuen Ethereum-Blöcken zur Verfügung stellt, wird dafür belohnt. Die Mining-Belohnung beträgt bei Ethereum, 5 Ether pro Block. Da die Blockzeit, die Zeit um einen neuen Block zu berechnen, bei Ethereum mit ca. 10-15sec weit unter den 10 Minuten von Bitcoin liegt, werden verhältnismäßig viel mehr Blöcke und damit mehr neue Einheiten erschaffen.
+Ethereum hat keine Begrenzung einer maximalen Anzahl von Einheiten (Ether) wie zum Beispiel Bitcoin.
+In der Zukunft wird das Ethereum-Netzwerk also die Blockzeit und die Schwierigkeit für die Berechnungen erhöhen müssen um die Stabilität der Ethereum-Plattform zu gewährleisten.&lt;/p&gt;
+
+&lt;h4 id=&quot;besonderheiten&quot;&gt;Besonderheiten&lt;/h4&gt;
+
+&lt;p&gt;Ethereum bietet durch seine Erweiterbarkeit durch Smart Contracts sehr viel mehr Potential für die Zukunft als Bitcoin.
+Ethereum ist nicht nur eine Währung, also ein Mittel um Finanzgeschäfte abzuwickeln, sondern vielmehr eine Plattform die eine große Anzahl an Lösungen für aktuelle und zukünftige Probleme darstellt.&lt;/p&gt;
+
+&lt;h4 id=&quot;nachteile&quot;&gt;Nachteile&lt;/h4&gt;
+
+&lt;p&gt;Ethereum ist noch viel jünger als &lt;a href=&quot;/article/bitcoin-einfach-erklaert&quot;&gt;Bitcoin&lt;/a&gt; und die Richtung, in welche sich Ethereum entwickeln wird, ist noch nicht so klar wie bei Bitcoin.
+Durch die großen Möglichkeiten von Ethereum kommen auch größere Probleme auf die Plattform zu. Im Juni 2016 führte ein Fehler in der Programmierung der Smart Contracts dazu, dass ein großer Teil von Ether vernichtet wurde.
+Das Netzwerk reagierte darauf mit einer Behebung des Problems die aber dazu führte, dass es nun zwei Währungen gibt. Ethereum, welches als Hauptprojekt weitergeführt wird und “Ethereum Classic”, welches von den Entwicklern nun nicht mehr unterstützt wird.&lt;/p&gt;
+
+&lt;h4 id=&quot;wie-bekomme-ich-ether&quot;&gt;Wie bekomme ich Ether?&lt;/h4&gt;
+
+&lt;p&gt;Zuerst muss man sich ein eigenes Ethereum-Konto einrichten, also eine “Ethereum-Wallet”. (Dazu folgt eine ausführliche Beschreibung)
+Ether können dann auf Websites wie &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt; für Euros gekauft werden.&lt;/p&gt;
+
+&lt;p&gt;Wie auch bei &lt;a href=&quot;/article/bitcoin-einfach-erklaert&quot;&gt;Bitcoin&lt;/a&gt; kann man seinen eigenen Computer zur Berechnung bereitstellen und wird dafür mit Ether belohnt. Die Rechenkapazität und die niedrige Effizienz des eigenen Rechners reicht aber meistens nicht aus um die dafür verbrauchten Stromkosten zu decken.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Ethereum ist eine von Vitalik Buterin im Jahr 2015 entwickelte Plattform für digitale Verträge. In Ethereum eingebunden ist auch die Kryptowährung “Ether”. Mit Ether können auch Überweisungen, wie in anderen Kryptowährungen, abgewickelt werden. Ethereum stellt auch gleichzeitig die zweitgrößte Kryptowährung dar. Die Plattform Ethereum ist gegenüber dem Bitcoin sehr interessant durch seine zusätzlichen Funktionen. Bei dem Start von Ethereum erhielt das Projekt rund 18 Mio. Dollar Startkapital durch ein Crowdfunding.</summary></entry><entry><title type="html">Was ist Bitcoin?</title><link href="http://localhost:4000/en/article/bitcoin/" rel="alternate" type="text/html" title="Was ist Bitcoin?" /><published>2017-07-23T00:00:00+02:00</published><updated>2017-07-23T00:00:00+02:00</updated><id>http://localhost:4000/en/article/bitcoin</id><content type="html" xml:base="http://localhost:4000/en/article/bitcoin/">&lt;p&gt;Bitcoin ist die erste, entwickelte &lt;a href=&quot;/article/kryptowaehrung-einfach-erklaert&quot;&gt;Kryptowährung&lt;/a&gt; und wurde 2009 von Satoshi Nakamoto (Pseudonym) veröffentlicht. Da Bitcoin die erste und damit bekannteste Kryptowährung ist, wird sie auch am meisten genutzt und gilt als Maßstab anderer Kryptowährungen.&lt;/p&gt;
+
+&lt;h4 id=&quot;die-wichtigsten-daten&quot;&gt;Die wichtigsten Daten&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Name&lt;/td&gt;
+      &lt;td&gt;   Bitcoin (BTC)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Entstehungsjahr&lt;/td&gt;
+      &lt;td&gt;   2009&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kleinste Einheit&lt;/td&gt;
+      &lt;td&gt;   0.00000001 BTC (7 Nullen)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Blockzeit&lt;/td&gt;
+      &lt;td&gt;   10min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Verfügbar/Gesamt&lt;/td&gt;
+      &lt;td&gt;   16,5 Mio. / 21 Mio.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Website&lt;/td&gt;
+      &lt;td&gt;   &lt;a href=&quot;https://www.bitcoin.org&quot; target=&quot;_blank&quot;&gt;www.bitcoin.org&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Die folgenden Daten stammen von der Website &lt;a href=&quot;https://coinmarketcap.com/currencies/bitcoin/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt; und stellen den aktuellen Wert eines Bitcoins in Euro, den Rang, das Martkapital und das in den letzten 24h gehandelte Volumen dar.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://files.coinmarketcap.com/static/widget/currency.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;coinmarketcap-currency-widget&quot; data-currency=&quot;bitcoin&quot; data-base=&quot;EUR&quot; data-secondary=&quot;&quot; data-ticker=&quot;true&quot; data-rank=&quot;true&quot; data-marketcap=&quot;true&quot; data-volume=&quot;true&quot; data-stats=&quot;EUR&quot; data-statsticker=&quot;false&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
+
+&lt;p&gt;Bitcoin basiert auf einer Blockchain und dient zur digitalen Zahlungsabwicklung. Jeder Nutzer besitzt eine Adresse und kann Bitcoins über das Internet an andere Bitcoin-Nutzer schicken.
+Einmal abgeschickte und verifizierte Überweisungen können nicht mehr rückgänging gemacht oder manipuliert werden.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin ist grundsätzlich ersteinmal anonym. Diese Anonymität geht aber teilweise verloren, wenn man Jemandem seine öffentliche Bitcoin-Adresse weitergibt und damit eine Verbindung zwischen seiner Identiät und der Adresse herstellt. Da die gesamte Blockchain öffentlich ist, kann diese Person dann auch in der Blockchain nachschauen, wieviele Bitcoins dieser öffentlichen Adresse zugeordnet sind.
+Eine öffentliche Bitcoin-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;12UwLL7Krhg3QfPqBUoKofHmHQ4wMtjpM
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Eine Überweisung muss nicht immer ganze Bitcoin enthalten. Die kleinste Einheit bei Bitcoin ist 0,00000001 Bitcoin und wird “Satoshi” genannt. Jeder Bitcoin lässt sich also in 100.000.000 Teile unterteilen.&lt;/p&gt;
+
+&lt;h4 id=&quot;mining&quot;&gt;Mining&lt;/h4&gt;
+
+&lt;p&gt;Das Verrechnen neuer Überweisungen und das abschließen in Blöcken nennt man Mining. Jeder neue, berechnete Block erweitert die Blockkette von Bitcoin.
+Jeder, der seinen Computer zum Berechnen von neuen Bitcoin-Blöcken zur Verfügung stellt, wird auch dafür belohnt. Die Mining-Belohnung beträgt seit Juli 2016, 12,5 Bitcoin. Diese erhält man aber nicht alleine. Um neue Blöcke zu berechnen tritt man einem Netzwerk bei und vergrößtert so seine Rechenkapazität. Alleine würde das Berechnen neuer Blöcke zu lange dauern.&lt;/p&gt;
+
+&lt;h4 id=&quot;besonderheiten&quot;&gt;Besonderheiten&lt;/h4&gt;
+
+&lt;p&gt;Da Bitcoin die bekannteste &lt;a href=&quot;/article/kryptowaehrung-einfach-erklaert&quot;&gt;Kryptowährung&lt;/a&gt; ist, ist sie auch am weistesten verbreitet und anerkannt. Fast jeder, der Kryptowährungen akzeptiert, akzeptiert auch Bitcoin.
+Zusätzlich hat Bitcoin auch das am weitesten entwickelte Netzwerk und die größte Community, was Bitcoin die Position der derzeit wichtigsten Kryptowährung verschafft.
+Das Verfahren von Bitcoin dient dank seiner öffentlichen Lizenz auch als Grundlage von vielen anderen Kryptowährungen wie Litecoin, Peercoin oder einige andere.&lt;/p&gt;
+
+&lt;h4 id=&quot;nachteile&quot;&gt;Nachteile&lt;/h4&gt;
+
+&lt;p&gt;Bitcoin kann nur Überweisungen abbilden. Andere Währungen, wie zum Beispiel &lt;a href=&quot;/article/ethereum-einfach-erklaert&quot;&gt;Ethereum&lt;/a&gt;, können auch noch mehr Informationen in die Blockchain aufnehmen und bieten damit neue Möglichkeiten auch in anderen Bereichen als nur dem Finanzsektor.&lt;/p&gt;
+
+&lt;p&gt;Die durschnittliche Blockzeit, die Zeit um einen neuen Block zu berechnen, beträgt bei Bitcoin ca. 10 Minuten. Das ist verhältnismäßig lange und wirft einige Probleme auf. Auch die steigende Anzahl von Überweisungen verzögert die Überweisungsgeschwindigkeit weiter. Somit ist es schwer mit Bitcoin schnelle Überweisungen, wie Bezahlung in einem Geschäft zu tätigen.&lt;/p&gt;
+
+&lt;h4 id=&quot;wie-bekomme-ich-bitcoin&quot;&gt;Wie bekomme ich Bitcoin?&lt;/h4&gt;
+
+&lt;p&gt;Zuerst muss man sich ein eigenes Bitcoin-Konto einrichten, also eine “Bitcoin-Wallet”. (Dazu folgt eine ausführliche Beschreibung)
+Bitcoins können dann auf Websites wie &lt;a href=&quot;https://www.bitcoin.de/&quot; target=&quot;_blank&quot;&gt;www.bitcoin.de&lt;/a&gt; oder &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt; für Euros gekauft werden.&lt;/p&gt;
+
+&lt;p&gt;Auch selbst kann man seinen eigenen Computer zur Berechnung bereitstellen und wird dafür mit Bitcoins belohnt. Die Rechenkapazität und die niedrige Effizienz des eigenen Rechners reicht aber meistens nicht aus um die dafür verbrauchten Stromkosten zu decken.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Bitcoin ist die erste, entwickelte Kryptowährung und wurde 2009 von Satoshi Nakamoto (Pseudonym) veröffentlicht. Da Bitcoin die erste und damit bekannteste Kryptowährung ist, wird sie auch am meisten genutzt und gilt als Maßstab anderer Kryptowährungen.</summary></entry><entry><title type="html">What is a cryptocurrency?</title><link href="http://localhost:4000/en/article/cryptocurrencies/" rel="alternate" type="text/html" title="What is a cryptocurrency?" /><published>2017-07-20T00:00:00+02:00</published><updated>2017-07-20T00:00:00+02:00</updated><id>http://localhost:4000/en/article/cryptocurrencies</id><content type="html" xml:base="http://localhost:4000/en/article/cryptocurrencies/">&lt;p&gt;Cryptocurrencies such as Bitcoin or Ethereum gain increasing importance and almost everyone has heard the terms somewhere. Cryptocurrency system offer the possibility to revolutionize the existing financial systems and create a real value as an traditional currency.&lt;/p&gt;
+
+&lt;h4 id=&quot;cryptocurrency&quot;&gt;Cryptocurrency&lt;/h4&gt;
+
+&lt;p&gt;A Cryptocurrency is quite simply a digital currency. The word “crypto” refers to the cryptography, the science around the encryption of information. You can make payments with Cryptocurrencies, just like with other currencies. If you want to buy something and the seller accepts those currencies, you can simply transfer the required price to his digital account.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-difference-to-traditional-currencies-like-euro&quot;&gt;What is the difference to traditional currencies, like Euro?&lt;/h4&gt;
+
+&lt;p&gt;There is no finacial institutes, no third party who manages our account and then transfers the money transfers. At most cryptocurrencies, we are the “bank”, computers distributed all around the world, calculate our referrals and maintain a persistent list. This list of past referrals, also referred as blockchain, is the most important innovation in cryptocurrency system.&lt;/p&gt;
+
+&lt;h4 id=&quot;blockchain&quot;&gt;Blockchain&lt;/h4&gt;
+
+&lt;p&gt;The “blockchain” contains all the transfers ever made, collected in blocks. Once a block is full and once completed, it can never be changed again. This provides the very high security to cryptocurrency transfers.&lt;/p&gt;
+
+&lt;h4 id=&quot;my-account&quot;&gt;My account&lt;/h4&gt;
+
+&lt;p&gt;As explained, Cryptocurrencies do not need a finacial institutes, so you do not need to log in or create an account to an institute for their management. This is the reason why many cryptocurrency transfers are also completely anonymous. What you have to do is just create your own account.&lt;/p&gt;
+
+&lt;p&gt;If you want to create a new account, you can easily do this with so-called “wallets”. A wallet is nothing more than a computer program, which knows how the selected crypto is constructed. When you create an account, two keys are created. One of these keys is the public address that can be passed to receive referrals, similar to a conto number. The second key is secret and may never be passed on. It is the key with which you can send referrals yourself. Similar to the PIN of a bank card. Who owns this private key is also the owner of the account.&lt;/p&gt;
+
+&lt;p&gt;If you want to know how much money you have just available, you simply open my wallet. This program then goes through the entire list and computes all past referrals and shows me my result.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-is-new-money-generated&quot;&gt;How is new money generated?&lt;/h4&gt;
+
+&lt;p&gt;If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called “mines”.&lt;/p&gt;
+
+&lt;p&gt;Thus, a rapid depreciation of money within a cryptocurrency is much less than with the established financial systems and thus guarantees a high stability.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Cryptocurrencies such as Bitcoin or Ethereum gain increasing importance and almost everyone has heard the terms somewhere. Cryptocurrency system offer the possibility to revolutionize the existing financial systems and create a real value as an traditional currency. Cryptocurrency A Cryptocurrency is quite simply a digital currency. The word “crypto” refers to the cryptography, the science around the encryption of information. You can make payments with Cryptocurrencies, just like with other currencies. If you want to buy something and the seller accepts those currencies, you can simply transfer the required price to his digital account. What is the difference to traditional currencies, like Euro? There is no finacial institutes, no third party who manages our account and then transfers the money transfers. At most cryptocurrencies, we are the “bank”, computers distributed all around the world, calculate our referrals and maintain a persistent list. This list of past referrals, also referred as blockchain, is the most important innovation in cryptocurrency system. Blockchain The “blockchain” contains all the transfers ever made, collected in blocks. Once a block is full and once completed, it can never be changed again. This provides the very high security to cryptocurrency transfers. My account As explained, Cryptocurrencies do not need a finacial institutes, so you do not need to log in or create an account to an institute for their management. This is the reason why many cryptocurrency transfers are also completely anonymous. What you have to do is just create your own account. If you want to create a new account, you can easily do this with so-called “wallets”. A wallet is nothing more than a computer program, which knows how the selected crypto is constructed. When you create an account, two keys are created. One of these keys is the public address that can be passed to receive referrals, similar to a conto number. The second key is secret and may never be passed on. It is the key with which you can send referrals yourself. Similar to the PIN of a bank card. Who owns this private key is also the owner of the account. If you want to know how much money you have just available, you simply open my wallet. This program then goes through the entire list and computes all past referrals and shows me my result. How is new money generated? If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called “mines”. Thus, a rapid depreciation of money within a cryptocurrency is much less than with the established financial systems and thus guarantees a high stability.</summary></entry></feed>

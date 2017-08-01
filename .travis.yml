@@ -1,6 +1,10 @@
 branches:
   only:
   - master
+before_install:
+  - set -e
+  - git config --global user.email "robin.boehm@workshops.de"
+  - git config --global user.name "robinboehm"
 install:
   - bundle
 script: jgd -u git@github.com:blockchain-info/blockinfo.de.git

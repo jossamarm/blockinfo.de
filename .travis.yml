@@ -1,0 +1,9 @@
+branches:
+  only:
+  - master
+install:
+  - bundle
+script: jgd -u http://robinboehm:$PASSWORD@github.com/blockchain-info/blockinfo.de.git
+env:
+  global:
+    secure: ci9g2LlSCtny3iE69+FAJpmQfufUTz0910T3xlOLglt5ppTpjP30whqTw6Av1hn9Zzx+ynSnlsR/r2wUDrKWvjrtr4g3hifIiIPRR3PbVoWobRSMOVbIH0N/y/BMcQTZCWoJVl0YFpnLR2dfHtXS071VO1xQAKDQbGSjZ1wBdcNH0Rbp0gNrR2VwK0+N3NVkpLj+pxZmN9n6Pg3Rfh+7nwTICphXJON5dbFFwJevS8RuaFkpaqASA1zbDV70aLonP5sQfl50tVhxtataPRfNDkmHc+a1JfgUnvFcP+RobYA4kLCWMNrrNEvqf81ozAORcKTYn1YCdcQ2awCL7rngDV6xBm33bzi5pUfhIDFNxb6Aap911xLY+nRbbDFIXcjwLalVlMCsQIjqv8vYb0WZztmBZoeN7yDOItSrPCel/ZCNokVBu1PSyslWV+7gaI13k4Kjm2SzJIMq0NMFAcLjIUUew/P6ihU1zF2v9OknAmmtfyuZAdzpGNAMIUfKk6slVii69sWnEOotkOGtqDUjbnXzw7AvIzltYTgWk7Z+3pb4QZPEaWO8UNEgF12MjZiRwehblpn58t4yibP5/X7D/tscOGX9NvBCb1Naac7aY9uCNtYXBEfRyQ0M1rLiJ05OfhvtBV36I/zRKSFUgIcEVYhFvVTWEjmYNaYrMqNk5As=

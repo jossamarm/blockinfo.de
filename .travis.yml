@@ -1,3 +1,6 @@
+language: ruby
+rvm:
+  - 2.2.2
 branches:
   only:
   - master
@@ -5,6 +8,12 @@ before_install:
   - set -e
   - git config --global user.email "robin.boehm@workshops.de"
   - git config --global user.name "robinboehm"
+  - openssl aes-256-cbc -K $encrypted_f35eb058e3ea_key -iv $encrypted_f35eb058e3ea_iv -in id_rsa.enc -out id_rsa -d
+  - mv id_rsa ~/.ssh
+  - chmod 600 ~/.ssh/id_rsa
 install:
   - bundle
-script: jgd -u git@github.com:blockchain-info/blockinfo.de.git
+script:
+  - set -e
+  - export JEKYLL_ENV=production
+  - jgd -u git@github.com:blockchain-info/blockinfo.de.git

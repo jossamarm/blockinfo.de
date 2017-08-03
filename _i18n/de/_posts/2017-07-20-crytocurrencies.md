@@ -13,7 +13,7 @@ header_image: "/article/cryptocurrencies/header.png"
 thumbnail_image: "/article/cryptocurrencies/thumbnail.jpg"
 ---
 
-Kryptowährungen wie [Bitcoin](/article/bitcoin-einfach-erklaert) oder [Ethereum](/article/ethereum-einfach-erklaert) werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.
+Kryptowährungen wie [Bitcoin](/article/bitcoin) oder [Ethereum](/article/ethereum) werden immer wichtiger und fast jeder hat die Begriffe schonmal irgendwo gehört. Kryptowährungen bieten die Möglichkeit wieder einen echten Gegenwert für eine Währung zu erschaffen, wieder die Kontrolle über unsere finanziellen Angelegenheiten zu erlangen und das bestehende Finanzsystem zu revolutionieren.
 
 #### Kryptowährung
 
@@ -28,7 +28,7 @@ Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto
 
 #### Blockchain
 
-Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von [Bitcoin](/article/bitcoin-einfach-erklaert) zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.
+Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von [Bitcoin](/article/bitcoin) zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.
 
 ![Blockchain Einfach](/article/cryptocurrencies/cryptocurrencies_block.png)
 
@@ -47,7 +47,7 @@ Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfa
 Wenn Europa zum Beispiel neue Euros produzieren will, so kann die Europäische Zentralbank eine bestimmte Summe festlegen und diese ohne realen Gegenwert in das bestehende Finanzsystem einfließen lassen. Auch Banken handeln schon lange nicht mehr mit realen Gegenwerten.
 Bei Kryptowährungen ist das anders! Alles Geld hat einen direkten Gegenwert, nämlich die Arbeit eines Computers. Die Berechnungszeit eines Computers stellen einen realen Gegenwert zu jeder erschaffenen Einheit dar. Neue Einheiten einer Kryptowährung erhält jeder, der seinen Computer zum Berechnen von neuen Blöcken zur Verfügung stellt. Diesen Vorgang nennt man „Minen“, also das „schürfen“ neuer Einheiten. (Ein eigener Beitrag zum Thema "Mining" folgt in kürze)
 
-Zudem sind Kryptowährungen meistens schon von Beginn an, auf eine maximale Anzahl von einzelnen Einheiten begrenzt. So kann es zum Beispiel nie mehr als 21 Millionen [Bitcoin](/article/bitcoin-einfach-erklaert) geben.
+Zudem sind Kryptowährungen meistens schon von Beginn an, auf eine maximale Anzahl von einzelnen Einheiten begrenzt. So kann es zum Beispiel nie mehr als 21 Millionen [Bitcoin](/article/bitcoin) geben.
 Damit ist eine schnelle Entwertung des Geldes innerhalb einer Kryptowährung sehr viel unwahrscheinlicher als bei den etablierten Finanzsystemen und garantiert dadurch eine hohe Stabilität.
 
 #### Und wann kann man damit auch bezahlen?

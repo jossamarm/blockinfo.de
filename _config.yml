@@ -5,7 +5,7 @@ url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. h
 url_http: "http://blockinfo.de"
 twitter_username: Blockinfo_DE
 github_username: blockchain-info
-envelope_username: info@blockinfo.de
+envelope_username: Leonardthiele@googlemail.com
 ga_property: "UA-102954545-1"
 permalink: /article/:slug/
 repository_url: "https://github.com/blockchain-info/blockinfo.de"

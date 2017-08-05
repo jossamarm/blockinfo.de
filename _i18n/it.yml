@@ -1,0 +1,40 @@
+global:
+  english: Inglese
+  german: Tedesco
+  italian: Italiano
+  spanish: Spagnolo
+navigation:
+  beginner: Per iniziare
+  all_articles: Tutti gli articoli
+  new_topic: Suggerisci un argomento
+footer:
+  allrights: Tutti i diritti riservati
+  impressum: Condizioni d'utilizzo
+  privacy: Privacy
+home:
+  title: Blockchain-In parole semplici
+  description: Tutto su Blockchain
+  headline: Tutto su Blockchain, in parole semplici
+  current_articles: Nuovi articoli
+  view_articles: Mostra tutti
+  new_idea: Qualche spunto per un nuovo articolo?
+  message: Le tue idee sono importanti per noi!
+beginner:
+  header: Articoli per iniziare
+  title: Articoli per iniziare
+  description: Qui trovi tutti gli aricoli per inziare a scoprire il mondo Blockchain
+article:
+  title: Tutti gli articoli
+  description: Tutto su Blockchain, in parole semplici
+suggest_topic:
+  title: Suggerisci un argomento
+  description: Ci piacerebbe scrivere della tua idea
+card_information:
+  reading_time: Durata della lettura
+  minute: min
+post:
+  continue: Continua
+  from: di
+  helpful: Ti è stato utile?
+  improve: Migliora questo articolo con GitHub
+  orig: Versione originale postata da

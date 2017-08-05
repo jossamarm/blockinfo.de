@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://blockinfo.de/en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blockinfo.de/en/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-08-03T16:46:55+00:00</updated><id>https://blockinfo.de/en/</id><title type="html">Blockinfo.de</title><subtitle></subtitle><entry><title type="html">Was ist Ethereum?</title><link href="https://blockinfo.de/en/article/ethereum/" rel="alternate" type="text/html" title="Was ist Ethereum?" /><published>2017-07-23T00:00:00+00:00</published><updated>2017-07-23T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/ethereum</id><content type="html" xml:base="https://blockinfo.de/en/article/ethereum/">&lt;p&gt;Ethereum ist eine von Vitalik Buterin im Jahr 2015 entwickelte Plattform für digitale Verträge. In Ethereum eingebunden ist auch die &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt; “Ether”. Mit Ether können auch Überweisungen, wie in anderen Kryptowährungen, abgewickelt werden. Ethereum stellt auch gleichzeitig die zweitgrößte Kryptowährung dar. Die Plattform Ethereum ist gegenüber dem Bitcoin sehr interessant durch seine zusätzlichen Funktionen. Bei dem Start von Ethereum erhielt das Projekt rund 18 Mio. Dollar Startkapital durch ein Crowdfunding.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://blockinfo.de/en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blockinfo.de/en/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-08-05T13:46:13+00:00</updated><id>https://blockinfo.de/en/</id><title type="html">Blockinfo.de</title><subtitle></subtitle><entry><title type="html">What is Ethereum?</title><link href="https://blockinfo.de/en/article/ethereum/" rel="alternate" type="text/html" title="What is Ethereum?" /><published>2017-07-23T00:00:00+00:00</published><updated>2017-07-23T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/ethereum</id><content type="html" xml:base="https://blockinfo.de/en/article/ethereum/">&lt;p&gt;Ethereum is developed in 2015 by Vitalik Buterin as a platform for digital contracts. In Ethereum included is the &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Cryptocurrency&lt;/a&gt; “Ether”. Ether can be used to do financial transactions, like in other cryptocurrencies. Ethereum is to this day, the second biggest cryptocurrency. But Ethereum has some interesting and important advantages over &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt;. When the project around Ethereum started, it recieved around 18 Mio. Dollar in crowdfunded capital.&lt;/p&gt;
 
-&lt;h4 id=&quot;die-wichtigsten-daten&quot;&gt;Die wichtigsten Daten&lt;/h4&gt;
+&lt;h4 id=&quot;important-data&quot;&gt;Important data&lt;/h4&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -9,20 +9,20 @@
       &lt;td&gt;   Ethereum (ETH)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Entstehungsjahr&lt;/td&gt;
+      &lt;td&gt;Year&lt;/td&gt;
       &lt;td&gt;   2015&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Kleinste Einheit&lt;/td&gt;
+      &lt;td&gt;Smalles Unit&lt;/td&gt;
       &lt;td&gt;   0,000000000000000001 ETH (17 Nullen)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Blockzeit&lt;/td&gt;
+      &lt;td&gt;Blocktime&lt;/td&gt;
       &lt;td&gt;   12 Sekunden&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Verfügbar/Gesamt&lt;/td&gt;
-      &lt;td&gt;   93,5 Mio. / Keine Begrenzung&lt;/td&gt;
+      &lt;td&gt;Available/Total&lt;/td&gt;
+      &lt;td&gt;   93.5 Mio. / No Limitation&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Website&lt;/td&gt;
@@ -31,59 +31,55 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Die folgenden Daten stammen von der Website &lt;a href=&quot;https://coinmarketcap.com/currencies/ethereum/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt; und stellen den aktuellen Wert eines Ethers in Euro, den Rang, das Martkapital und das in den letzten 24h gehandelte Volumen dar.&lt;/p&gt;
+&lt;p&gt;The following data are from the website &lt;a href=&quot;https://coinmarketcap.com/currencies/ethereum/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt;
+and represent the current value of one Ether in Euro, the rank, the market cap and the 24h trading volume.&lt;/p&gt;
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://files.coinmarketcap.com/static/widget/currency.js&quot;&gt;&lt;/script&gt;
 &lt;div class=&quot;coinmarketcap-currency-widget&quot; data-currency=&quot;ethereum&quot; data-base=&quot;EUR&quot; data-secondary=&quot;&quot; data-ticker=&quot;true&quot; data-rank=&quot;true&quot; data-marketcap=&quot;true&quot; data-volume=&quot;true&quot; data-stats=&quot;EUR&quot; data-statsticker=&quot;false&quot;&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
 
-&lt;p&gt;Ethereum basiert auf einer Blockchain und dient zum abwickeln von digitalen Verträgen (Smart Contracts). Ähnlich wie &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; braucht Ethereum also auch keine zentrale Verwaltung oder Bank. Ethereum versucht aber nicht nur die finanziellen Geschäfte wieder in unsere Kontrolle zu bringen, sondern auch die Abwicklung von Verträgen und Übereinkommen.
-Jeder Ethereum-Nutzer hat wieder eine öffentliche Adresse, die er bekannt geben kann um zum Beispiel Ether zu erhalten. Der private, geheime Schlüssel dient dazu Überweisungen zu verschicken oder Verträge zu signieren, ähnlich einer Unterschrift auf einem Dokument.&lt;/p&gt;
+&lt;p&gt;Ethereum is based on a Blockchain and is used to do digital contracts, also called “Smart Contracts”. Similar to &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt;, Ethereum doesn’t need any central administration or bank. Ethereum is not only focussed on returning the control about financial transactions back to us, but also on contracts.
+Every user of Ethereum has his own public adress, which he can pass on to recieve Ether for example. The secret, private key is used to send transactions or to sign contracts, similar to a signature on a document.&lt;/p&gt;
 
-&lt;p&gt;Eine öffentliche Ethereum-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
+&lt;p&gt;This is how a public Ethereum adress looks like:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;168bc315a2er09052d83d1c5811n533620031f67
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Eine Überweisung muss aber nicht immer ganze Ether enthalten. Will man nur einen halben oder ein viertel eines Ethers überweisen ist das auch möglich. Die kleinste mögliche Einheit bei Ether ist 0,000000000000000001 Ether und wird “Wei” genannt. Jeder Ether lässt sich also maximal in 1.000.000.000.000.000.000 (1 Trillion) Teile unterteilen.&lt;/p&gt;
+&lt;p&gt;Ether can be split up into smaller parts, to make transactions more precise. It is possible to send only half of an Ether or a quarter. The smallest possible unit is 0.000000000000000001 Ether and is called “Wei”. Therefore every Ether can be split up in 1000000000000000000 (one trillion) Wei.&lt;/p&gt;
 
 &lt;h4 id=&quot;smart-contracts&quot;&gt;Smart Contracts&lt;/h4&gt;
 
-&lt;p&gt;Ein Smart Contract, also ein “intelligenter Vertrag” bietet die Möglichkeit sichere, schnelle Verträge mit Vertragspartnern zu schließen ohne eine reale Unterschrift, oder einen komplizierten Vorgang auf Papier. Noch wichtiger, es gibt keine zentrale Verwaltung dieser Verträge und kein Dritter profitiert davon.&lt;/p&gt;
+&lt;p&gt;A Smart Contract is used to make secure and fast contracts between to partys, without a real signature or a complicated process on paper. Even more important, there is no central administration of these contracts and no third party is making profit out of this.&lt;/p&gt;
 
-&lt;p&gt;Die Blockchain von Ethereum ermöglicht es, nicht nur Überweisungen in die Blockchain zu schreiben, sondern auch kleine Computerprogramme, welche Bedingungen selbständig überprüfen und Anweisungen ausführen. So kann zum Beispiel ein Lizenzkauf für eine Software, der eine monatliche Zahlung vorsieht über einen Smart Contract abgeschlossen werden. Nur wenn die Zahlung geleistet wird, ist die Vertragsbedingung eingehalten und der Vertrag ist gültig.
-Auch viele andere Bereiche könnten die intelligenten Verträge von Ethereum vereinfachen, wie zum Beispiel die Energieversorgung und dessen Abrechnung, der Vertrieb und die Bezahlung von Apps oder als sichere Bezahlung für andere Leistungen. Auch können viele Andwendungen im Bereich der sicheren und vertraulichen Speicherung von privaten Daten durch Ethereum unterstützt werden.&lt;/p&gt;
+&lt;p&gt;The Blockchain of Ethereum is not only capeable to store transaction, but also small computer programms which can check certain conditions and execute instructions. An example would be a contract about a licensed software, which is only valid when a monthly payment is made to a specific account.
+There are many of other applications of the Smart Contracts of Ethereum, like the energy-supply and its accounting, publishing and paying for apps or as a safe payment for other services. Another important application is to store our private data more secure and trustful.&lt;/p&gt;
 
-&lt;p&gt;Ethereum wurde mit der Technologie der individuellen, digitalen Verträgen ausgestattet um auch Lösung für einige zukünftige Probleme zu sein. Die Individualisierung und Erweiterbarkeit stellen dazu die Grundlage dar.&lt;/p&gt;
+&lt;p&gt;Ethereum is designed with the technology of Smart Contracts not only to solve a lot of problems of today, but also to solve some of the future problems. The flexibility and the possibility to extend the Blockchain with small programms is the foundation for this.&lt;/p&gt;
 
 &lt;h4 id=&quot;mining&quot;&gt;Mining&lt;/h4&gt;
 
-&lt;p&gt;Das Berechnen neuer Blöcke von Ethereum benötigt viel Rechenleistung. Hierzu stellt ein ganzes Netzwerk von unabhängigen, freiwilligen “Minern” ihre Computer zur Verfügung.
-Jeder, der seinen Computer zum Berechnen von neuen Ethereum-Blöcken zur Verfügung stellt, wird dafür belohnt. Die Mining-Belohnung beträgt bei Ethereum, 5 Ether pro Block. Da die Blockzeit, die Zeit um einen neuen Block zu berechnen, bei Ethereum mit ca. 10-15sec weit unter den 10 Minuten von Bitcoin liegt, werden verhältnismäßig viel mehr Blöcke und damit mehr neue Einheiten erschaffen.
-Ethereum hat keine Begrenzung einer maximalen Anzahl von Einheiten (Ether) wie zum Beispiel Bitcoin.
-In der Zukunft wird das Ethereum-Netzwerk also die Blockzeit und die Schwierigkeit für die Berechnungen erhöhen müssen um die Stabilität der Ethereum-Plattform zu gewährleisten.&lt;/p&gt;
+&lt;p&gt;The calculation of new blocks in the Ethereum network needs a lot of computational power. Everyone who is using their onw computer to support the system is getting rewarded with Ether. The mining reward of Ethereum is 5 Ether for every new block. The blocktime, the time to calculate a new block, is with 10-15sec a lot faster than Bitcoin.
+Ethereum has no limitation of total units. In the future the Ethereum-network has to increase the difficulty of the calculations to ensure the stability of the system.&lt;/p&gt;
 
-&lt;h4 id=&quot;besonderheiten&quot;&gt;Besonderheiten&lt;/h4&gt;
+&lt;h4 id=&quot;features&quot;&gt;Features&lt;/h4&gt;
 
-&lt;p&gt;Ethereum bietet durch seine Erweiterbarkeit durch Smart Contracts sehr viel mehr Potential für die Zukunft als Bitcoin.
-Ethereum ist nicht nur eine Währung, also ein Mittel um Finanzgeschäfte abzuwickeln, sondern vielmehr eine Plattform die eine große Anzahl an Lösungen für aktuelle und zukünftige Probleme darstellt.&lt;/p&gt;
+&lt;p&gt;Ethereum as a platform for Smart Contracts has a lot more potential for the future than only &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Cryptocurrencies&lt;/a&gt; like Bitcoin.
+Ethereum is not only a currency, a tool to manage financial transactions, but more a platform which offers a lot of solutions to future problems.&lt;/p&gt;
 
-&lt;h4 id=&quot;nachteile&quot;&gt;Nachteile&lt;/h4&gt;
+&lt;h4 id=&quot;downsides&quot;&gt;Downsides&lt;/h4&gt;
 
-&lt;p&gt;Ethereum ist noch viel jünger als &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; und die Richtung, in welche sich Ethereum entwickeln wird, ist noch nicht so klar wie bei Bitcoin.
-Durch die großen Möglichkeiten von Ethereum kommen auch größere Probleme auf die Plattform zu. Im Juni 2016 führte ein Fehler in der Programmierung der Smart Contracts dazu, dass ein großer Teil von Ether vernichtet wurde.
-Das Netzwerk reagierte darauf mit einer Behebung des Problems die aber dazu führte, dass es nun zwei Währungen gibt. Ethereum, welches als Hauptprojekt weitergeführt wird und “Ethereum Classic”, welches von den Entwicklern nun nicht mehr unterstützt wird.&lt;/p&gt;
+&lt;p&gt;Ethereum is a lot newer than &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; and the future developement of Ethereum is not completely clear.
+With more possibilities of extension, are coming more problems to the platform. A bug in the Smart Contracts in June 2016 was the cause for a lot of Ether beeing destroyed. The network fixed the bug, but decided to split the project into two projects. Ethereum which is beeing continued as the main project and “Ethereum Classic” which is not supported by the developers anymore.&lt;/p&gt;
 
-&lt;h4 id=&quot;wie-bekomme-ich-ether&quot;&gt;Wie bekomme ich Ether?&lt;/h4&gt;
+&lt;h4 id=&quot;how-can-i-get-ether&quot;&gt;How can I get Ether?&lt;/h4&gt;
 
-&lt;p&gt;Zuerst muss man sich ein eigenes Ethereum-Konto einrichten, also eine “Ethereum-Wallet”. (Dazu folgt eine ausführliche Beschreibung)
-Ether können dann auf Websites wie &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt; für Euros gekauft werden.&lt;/p&gt;
+&lt;p&gt;At first you have to create your own Ether-account, a “Ether-Wallet”. After that, Ether can be bought from websites like &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Wie auch bei &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; kann man seinen eigenen Computer zur Berechnung bereitstellen und wird dafür mit Ether belohnt. Die Rechenkapazität und die niedrige Effizienz des eigenen Rechners reicht aber meistens nicht aus um die dafür verbrauchten Stromkosten zu decken.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Ethereum ist eine von Vitalik Buterin im Jahr 2015 entwickelte Plattform für digitale Verträge. In Ethereum eingebunden ist auch die Kryptowährung “Ether”. Mit Ether können auch Überweisungen, wie in anderen Kryptowährungen, abgewickelt werden. Ethereum stellt auch gleichzeitig die zweitgrößte Kryptowährung dar. Die Plattform Ethereum ist gegenüber dem Bitcoin sehr interessant durch seine zusätzlichen Funktionen. Bei dem Start von Ethereum erhielt das Projekt rund 18 Mio. Dollar Startkapital durch ein Crowdfunding.</summary></entry><entry><title type="html">Was ist Bitcoin?</title><link href="https://blockinfo.de/en/article/bitcoin/" rel="alternate" type="text/html" title="Was ist Bitcoin?" /><published>2017-07-23T00:00:00+00:00</published><updated>2017-07-23T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/bitcoin</id><content type="html" xml:base="https://blockinfo.de/en/article/bitcoin/">&lt;p&gt;Bitcoin ist die erste, entwickelte &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt; und wurde 2009 von Satoshi Nakamoto (Pseudonym) veröffentlicht. Da Bitcoin die erste und damit bekannteste Kryptowährung ist, wird sie auch am meisten genutzt und gilt als Maßstab anderer Kryptowährungen.&lt;/p&gt;
+&lt;p&gt;Another way would be to use your computer to join a mining-network. Everyone who shares their computer to mine new Ether will be rewarded. But usually the low performance and the low efficiency of personal computers is not even worth all the energy costs.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Ethereum is developed in 2015 by Vitalik Buterin as a platform for digital contracts. In Ethereum included is the Cryptocurrency “Ether”. Ether can be used to do financial transactions, like in other cryptocurrencies. Ethereum is to this day, the second biggest cryptocurrency. But Ethereum has some interesting and important advantages over Bitcoin. When the project around Ethereum started, it recieved around 18 Mio. Dollar in crowdfunded capital.</summary></entry><entry><title type="html">What is Bitcoin?</title><link href="https://blockinfo.de/en/article/bitcoin/" rel="alternate" type="text/html" title="What is Bitcoin?" /><published>2017-07-23T00:00:00+00:00</published><updated>2017-07-23T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/bitcoin</id><content type="html" xml:base="https://blockinfo.de/en/article/bitcoin/">&lt;p&gt;Bitcoin is the first real &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Cryptocurrency&lt;/a&gt; and was published by Satoshi Nakamoto (Pseudonym) in 2009. Bitcoin is the first and most well known cryptocurrency, therefore it is used the most and is the reference for all other currencies.&lt;/p&gt;
 
-&lt;h4 id=&quot;die-wichtigsten-daten&quot;&gt;Die wichtigsten Daten&lt;/h4&gt;
+&lt;h4 id=&quot;important-data&quot;&gt;Important data&lt;/h4&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -92,20 +88,20 @@ Ether können dann auf Websites wie &lt;a href=&quot;https://anycoindirect.eu/&q
       &lt;td&gt;   Bitcoin (BTC)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Entstehungsjahr&lt;/td&gt;
+      &lt;td&gt;Year&lt;/td&gt;
       &lt;td&gt;   2009&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Kleinste Einheit&lt;/td&gt;
-      &lt;td&gt;   0.00000001 BTC (7 Nullen)&lt;/td&gt;
+      &lt;td&gt;Smallest unit&lt;/td&gt;
+      &lt;td&gt;   0.00000001 BTC (7 Zeros)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Blockzeit&lt;/td&gt;
+      &lt;td&gt;Blocktime&lt;/td&gt;
       &lt;td&gt;   10min&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Verfügbar/Gesamt&lt;/td&gt;
-      &lt;td&gt;   16,5 Mio. / 21 Mio.&lt;/td&gt;
+      &lt;td&gt;Available/Total&lt;/td&gt;
+      &lt;td&gt;   16.5 Mio. / 21 Mio.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Website&lt;/td&gt;
@@ -114,48 +110,49 @@ Ether können dann auf Websites wie &lt;a href=&quot;https://anycoindirect.eu/&q
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Die folgenden Daten stammen von der Website &lt;a href=&quot;https://coinmarketcap.com/currencies/bitcoin/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt; und stellen den aktuellen Wert eines Bitcoins in Euro, den Rang, das Martkapital und das in den letzten 24h gehandelte Volumen dar.&lt;/p&gt;
+&lt;p&gt;The following data are from the website &lt;a href=&quot;https://coinmarketcap.com/currencies/bitcoin/&quot; target=&quot;_blank&quot;&gt;Coinmarketcap&lt;/a&gt;
+and represent the current value of one Bitcoin in Euro, the rank, the market cap and the 24h trading volume.&lt;/p&gt;
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://files.coinmarketcap.com/static/widget/currency.js&quot;&gt;&lt;/script&gt;
 &lt;div class=&quot;coinmarketcap-currency-widget&quot; data-currency=&quot;bitcoin&quot; data-base=&quot;EUR&quot; data-secondary=&quot;&quot; data-ticker=&quot;true&quot; data-rank=&quot;true&quot; data-marketcap=&quot;true&quot; data-volume=&quot;true&quot; data-stats=&quot;EUR&quot; data-statsticker=&quot;false&quot;&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
+&lt;h4 id=&quot;desgin&quot;&gt;Desgin&lt;/h4&gt;
 
-&lt;p&gt;Bitcoin basiert auf einer Blockchain und dient zur digitalen Zahlungsabwicklung. Jeder Nutzer besitzt eine Adresse und kann Bitcoins über das Internet an andere Bitcoin-Nutzer schicken.
-Einmal abgeschickte und verifizierte Überweisungen können nicht mehr rückgänging gemacht oder manipuliert werden.&lt;/p&gt;
+&lt;p&gt;Bitcoin’s foundation is a Blockchain and the general purpose is to make digital payments. Every user has his own Bitcoin-adress and can send his Bitcoins to other people in the network.
+Once a transaction is made, it can never be reverted or manipulated again.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin ist grundsätzlich ersteinmal anonym. Diese Anonymität geht aber teilweise verloren, wenn man Jemandem seine öffentliche Bitcoin-Adresse weitergibt und damit eine Verbindung zwischen seiner Identiät und der Adresse herstellt. Da die gesamte Blockchain öffentlich ist, kann diese Person dann auch in der Blockchain nachschauen, wieviele Bitcoins dieser öffentlichen Adresse zugeordnet sind.
-Eine öffentliche Bitcoin-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
+&lt;p&gt;Every Bitcoin-user is basicly anonymous but this anonymity is partly lost, when someone can associate a person to a public adress. The whole blockchain is completely public, so everyone can look into it and see how many coins belong to an adress.&lt;/p&gt;
+
+&lt;p&gt;This is how a public Bitcoin adress looks like:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;12UwLL7Krhg3QfPqBUoKofHmHQ4wMtjpM
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Eine Überweisung muss nicht immer ganze Bitcoin enthalten. Die kleinste Einheit bei Bitcoin ist 0,00000001 Bitcoin und wird “Satoshi” genannt. Jeder Bitcoin lässt sich also in 100.000.000 Teile unterteilen.&lt;/p&gt;
+&lt;p&gt;To make transactions more flexible, one Bitcoin can be split up into smaller parts, like a cent in Euro. The smallest possible unit is 0.00000001 Bitcoin and is called “Satoshi”. Therefore every Bitcoin can be split up in 100000000 Satoshis.&lt;/p&gt;
 
 &lt;h4 id=&quot;mining&quot;&gt;Mining&lt;/h4&gt;
 
-&lt;p&gt;Das Verrechnen neuer Überweisungen und das abschließen in Blöcken nennt man Mining. Jeder neue, berechnete Block erweitert die Blockkette von Bitcoin.
-Jeder, der seinen Computer zum Berechnen von neuen Bitcoin-Blöcken zur Verfügung stellt, wird auch dafür belohnt. Die Mining-Belohnung beträgt seit Juli 2016, 12,5 Bitcoin. Diese erhält man aber nicht alleine. Um neue Blöcke zu berechnen tritt man einem Netzwerk bei und vergrößtert so seine Rechenkapazität. Alleine würde das Berechnen neuer Blöcke zu lange dauern.&lt;/p&gt;
+&lt;p&gt;The verification of new transactions and the calculation of new blocks is called “mining”. Every new calculated Block extends the blockchain of bitcoin.
+Everyone who uses their computer to calculate new blocks is rewarded with new bitcoins. Since Juli 2016 the mining-revenue is 12.5 Bitcoin per block. But the workload of the calculations is so high, that you usually join a network of computers to increase the calculation-power. This is the reason why everyone on the network is only getting a part from the 12.5 Bitcoin.&lt;/p&gt;
 
-&lt;h4 id=&quot;besonderheiten&quot;&gt;Besonderheiten&lt;/h4&gt;
+&lt;h4 id=&quot;features&quot;&gt;Features&lt;/h4&gt;
 
-&lt;p&gt;Da Bitcoin die bekannteste &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt; ist, ist sie auch am weistesten verbreitet und anerkannt. Fast jeder, der Kryptowährungen akzeptiert, akzeptiert auch Bitcoin.
-Zusätzlich hat Bitcoin auch das am weitesten entwickelte Netzwerk und die größte Community, was Bitcoin die Position der derzeit wichtigsten Kryptowährung verschafft.
-Das Verfahren von Bitcoin dient dank seiner öffentlichen Lizenz auch als Grundlage von vielen anderen Kryptowährungen wie Litecoin, Peercoin oder einige andere.&lt;/p&gt;
+&lt;p&gt;Bitcoin is the most known &lt;a href=&quot;/en/article/cryptocurrencies&quot;&gt;Cryptocurrency&lt;/a&gt; today, which is the reason why Bitcoin is the most accepted Cryptocurrency. Almost everyone who accepts Cryptocurrencies is accepting Bitcoin.
+In addition Bitcoin has the biggest community and has the most developed network. This makes Bitcoin the most important Cryptocurreny today.
+The technology behind Bitcoin is publicly available which serves as a foundation of many other currencies as Litecoin, Peercoin or many others.&lt;/p&gt;
 
-&lt;h4 id=&quot;nachteile&quot;&gt;Nachteile&lt;/h4&gt;
+&lt;h4 id=&quot;downsides&quot;&gt;Downsides&lt;/h4&gt;
 
-&lt;p&gt;Bitcoin kann nur Überweisungen abbilden. Andere Währungen, wie zum Beispiel &lt;a href=&quot;/en/article/ethereum&quot;&gt;Ethereum&lt;/a&gt;, können auch noch mehr Informationen in die Blockchain aufnehmen und bieten damit neue Möglichkeiten auch in anderen Bereichen als nur dem Finanzsektor.&lt;/p&gt;
+&lt;p&gt;Bitcoin is only a network for financial transactions. Other currencies like &lt;a href=&quot;/en/article/ethereum&quot;&gt;Ethereum&lt;/a&gt;, can also be used for many other purposes and future developements other than only the financial sector.&lt;/p&gt;
 
-&lt;p&gt;Die durschnittliche Blockzeit, die Zeit um einen neuen Block zu berechnen, beträgt bei Bitcoin ca. 10 Minuten. Das ist verhältnismäßig lange und wirft einige Probleme auf. Auch die steigende Anzahl von Überweisungen verzögert die Überweisungsgeschwindigkeit weiter. Somit ist es schwer mit Bitcoin schnelle Überweisungen, wie Bezahlung in einem Geschäft zu tätigen.&lt;/p&gt;
+&lt;p&gt;The usual blocktime, the time needed to calculate a new block, is 10min within the Bitcoin-networt. This is, compared to other currencies, too slow and creates some problems. With more and more transactions are coming into the network, this will slow it down even more. One problem of this is, that it would be difficult to pay in a store, when every transaction is taking that much time.&lt;/p&gt;
 
-&lt;h4 id=&quot;wie-bekomme-ich-bitcoin&quot;&gt;Wie bekomme ich Bitcoin?&lt;/h4&gt;
+&lt;h4 id=&quot;how-can-i-get-bitcoin&quot;&gt;How can I get Bitcoin?&lt;/h4&gt;
 
-&lt;p&gt;Zuerst muss man sich ein eigenes Bitcoin-Konto einrichten, also eine “Bitcoin-Wallet”. (Dazu folgt eine ausführliche Beschreibung)
-Bitcoins können dann auf Websites wie &lt;a href=&quot;https://www.bitcoin.de/&quot; target=&quot;_blank&quot;&gt;www.bitcoin.de&lt;/a&gt; oder &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt; für Euros gekauft werden.&lt;/p&gt;
+&lt;p&gt;At first you have to create your own Bitcoin-account, a “Bitcoin-Wallet”. After that, Bitcoins can be bought from websites like &lt;a href=&quot;https://anycoindirect.eu/&quot; target=&quot;_blank&quot;&gt;www.anycoindirect.eu&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Auch selbst kann man seinen eigenen Computer zur Berechnung bereitstellen und wird dafür mit Bitcoins belohnt. Die Rechenkapazität und die niedrige Effizienz des eigenen Rechners reicht aber meistens nicht aus um die dafür verbrauchten Stromkosten zu decken.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Bitcoin ist die erste, entwickelte Kryptowährung und wurde 2009 von Satoshi Nakamoto (Pseudonym) veröffentlicht. Da Bitcoin die erste und damit bekannteste Kryptowährung ist, wird sie auch am meisten genutzt und gilt als Maßstab anderer Kryptowährungen.</summary></entry><entry><title type="html">What is a cryptocurrency?</title><link href="https://blockinfo.de/en/article/cryptocurrencies/" rel="alternate" type="text/html" title="What is a cryptocurrency?" /><published>2017-07-20T00:00:00+00:00</published><updated>2017-07-20T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/cryptocurrencies</id><content type="html" xml:base="https://blockinfo.de/en/article/cryptocurrencies/">&lt;p&gt;Cryptocurrencies such as &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; or &lt;a href=&quot;/en/article/ethereum&quot;&gt;Ethereum&lt;/a&gt; gain increasing importance and almost everyone has heard the terms somewhere. Cryptocurrency systems offer the possibility to revolutionize the existing financial systems and create a real value behind a currency again.&lt;/p&gt;
+&lt;p&gt;Another way would be to use your computer to join a mining-network. Everyone who shares their computer to mine new Bitcoins will be rewarded. But usually the low performance and the low efficiency of personal computers is not even worth all the energy costs.&lt;/p&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Bitcoin is the first real Cryptocurrency and was published by Satoshi Nakamoto (Pseudonym) in 2009. Bitcoin is the first and most well known cryptocurrency, therefore it is used the most and is the reference for all other currencies.</summary></entry><entry><title type="html">What is a cryptocurrency?</title><link href="https://blockinfo.de/en/article/cryptocurrencies/" rel="alternate" type="text/html" title="What is a cryptocurrency?" /><published>2017-07-20T00:00:00+00:00</published><updated>2017-07-20T00:00:00+00:00</updated><id>https://blockinfo.de/en/article/cryptocurrencies</id><content type="html" xml:base="https://blockinfo.de/en/article/cryptocurrencies/">&lt;p&gt;Cryptocurrencies such as &lt;a href=&quot;/en/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; or &lt;a href=&quot;/en/article/ethereum&quot;&gt;Ethereum&lt;/a&gt; gain increasing importance and almost everyone has heard the terms somewhere. Cryptocurrency systems offer the possibility to revolutionize the existing financial systems and create a real value behind a currency again.&lt;/p&gt;
 
 &lt;h4 id=&quot;cryptocurrency&quot;&gt;Cryptocurrency&lt;/h4&gt;
 

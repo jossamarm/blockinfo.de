@@ -11,7 +11,12 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords" content="">
 
+  {% if page.layout == 'post' %}
+  <title>Blockinfo - {{ page.title }}</title>
+  {% else %}
   <title>Blockinfo - {% translate page.title %}</title>
+  {% endif %}
+
   {% if page.description %}
   <meta name="description" content="{% translate page.description %}">
   {% endif %}

@@ -42,7 +42,7 @@ If you want to know how much money you have just available, you simply open your
 
 #### How is new money generated?
 
-If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. The calculation time of a computer creates a real value to every created unit. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called "mining".
+If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. The calculation time of a computer creates a real value to every created unit. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called ["mining"](/en/article/mining).
 
 In addition, a lot of cryptocurrencies are already limited in their maximal circulating amount. For example, there can never be more than 21 Million [Bitcoin](/en/article/bitcoin).
 

@@ -1,0 +1,3 @@
+<p>
+  Le notizie che riguardano Blockchain stanno diventando sempre più comuni di giorno in giorno, ma questa nuova tecnologia lascia spazio a molti dubbi. Con <strong> Blockinfo </strong> stiamo realizzando una piattaforma per aiutarti a capire di che si tratta. È nostro intento spiegare tutto con parole semplici, così da permettere a persone non tecniche di capire tematiche come "Blockchain", "Cryptocurrencies" o anche "Bitcoin".
+</p>

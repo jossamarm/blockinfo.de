@@ -22,15 +22,13 @@ Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währung
 
 #### Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?
 
-Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.
+Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch [Blockchain](/article/blockchain) genannt, ist das wichtigste bei allen Kryptowährungen.
 
 ![Bitcoin Transaktionen](/article/cryptocurrencies/bitcoin-transactions.png)
 
 #### Blockchain
 
-Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von [Bitcoin](/article/bitcoin) zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.
-
-![Blockchain Einfach](/article/cryptocurrencies/cryptocurrencies_block.png)
+Die ["Blockkette"](/article/blockchain) enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von [Bitcoin](/article/bitcoin) zum Beispiel, enthält jeder Bitcoin-Block bis zu 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.
 
 #### Mein Konto
 
@@ -40,7 +38,7 @@ Wer ein neues Konto erstellen will, kann dies ganz einfach mit sogenannten „Wa
 Bei der Erstellung eines Kontos werden zwei Schlüssel erzeugt. Einer dieser Schlüssel ist die öffentliche Adresse, die man weitergeben kann um Überweisungen zu erhalten, ähnlich einer Kontonummer.
 Der zweite Schlüssel ist geheim und darf niemals weitergegeben werden. Er ist der Schlüssel, mit welchem man selbst Überweisungen verschicken kann. Ähnlich des PINs einer Bankkarte. Wer diesen privaten Schlüssel besitzt, ist auch Besitzer des Kontos.
 
-Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze Blockchain, rechnet alle vergangenen Überweisungen zusammen und zeigt mir dann meinen "Kontostand" an.
+Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze [Blockchain](/article/blockchain), rechnet alle vergangenen Überweisungen zusammen und zeigt mir dann meinen "Kontostand" an.
 
 #### Wie wird neues Geld erzeugt?
 

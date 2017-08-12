@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://blockinfo.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blockinfo.de/" rel="alternate" type="text/html" hreflang="de" /><updated>2017-08-06T13:25:25+00:00</updated><id>https://blockinfo.de/</id><title type="html">Blockinfo.de</title><subtitle></subtitle><entry><title type="html">Mining einfach erklärt</title><link href="https://blockinfo.de/article/mining/" rel="alternate" type="text/html" title="Mining einfach erklärt" /><published>2017-08-06T00:00:00+00:00</published><updated>2017-08-06T00:00:00+00:00</updated><id>https://blockinfo.de/article/mining</id><content type="html" xml:base="https://blockinfo.de/article/mining/">&lt;p&gt;Mining (englisch für “schürfen”) ist das Berechnen neuer Blöcke einer Blockchain. Jede Information, welche in einer Blockchain gespeichert werden soll, wird in Blöcke zusammengefasst und dann an die bestehende Blockchain angehangen. Diese Berechnungen benötigen eine enorme Rechenkapazität und werden von freiwilligen, unabhängigen Minern auf der ganzen Welt verarbeitet.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://blockinfo.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blockinfo.de/" rel="alternate" type="text/html" hreflang="de" /><updated>2017-08-12T16:45:08+00:00</updated><id>https://blockinfo.de/</id><title type="html">Blockinfo.de</title><subtitle></subtitle><entry><title type="html">Blockchain - Eine einfache Erklärung</title><link href="https://blockinfo.de/article/blockchain/" rel="alternate" type="text/html" title="Blockchain - Eine einfache Erklärung" /><published>2017-08-12T00:00:00+00:00</published><updated>2017-08-12T00:00:00+00:00</updated><id>https://blockinfo.de/article/blockchain</id><content type="html" xml:base="https://blockinfo.de/article/blockchain/">&lt;p&gt;Der Begriff Blockchain beschreibt die Technologie, welche durch ein öffentliches und verteiltes Hauptbuch, die Basis für eine sichere Kommunikation und Speicherung von Informationen darstellt. Auf der Grundlage der Blockchain können Kryptowährungen, digitale Verträge oder sogar die Sicherung von Grundbucheinträgen realisiert werden.
+Die Entwicklung der Blockchain-Technologie hat das Potential die größte technologische Entwicklung der Zukunft zu werden und mehr Einfluss auf unser alltägliches Leben zu haben, als viele andere Technologien wie zum Beispiel weitere Digitalisierung, künstliche Intelligenz oder autonome Fahrzeuge.&lt;/p&gt;
+
+&lt;h4 id=&quot;die-blockchain&quot;&gt;Die Blockchain&lt;/h4&gt;
+
+&lt;p&gt;Die Blockchain, also die “Blockkette” ist eine lange Liste von Informationen, auch Hauptbuch genannt. Diese Informationen werden in Blöcke aufgeteilt. Ein Block enthält zum Beispiel Überweisungen bei einer &lt;a href=&quot;/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt; wie &lt;a href=&quot;/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt;, digitale Verträge bei Netzwerken wie &lt;a href=&quot;/article/Ethereum&quot;&gt;Ethereum&lt;/a&gt; oder viele andere mögliche Informationen. Diese Blöcke werden dann miteinander verkettet. Zu den gespeicherten Daten enthält jeder Block noch weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Der Inhalt eines Blocks darf sich nie wieder ändern, da sich sonst auch sein Fingerabdruck ändert und die nachfolgende Blockchain damit ungültig wird.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/article/blockchain/cryptocurrencies_block.png&quot; alt=&quot;Blockchain Einfach&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Sind diese Blöcke einmal in dem Hauptbuch aufgenommen und abgeschlossen können sie praktisch unmöglich verändert werden, was die sehr hohe Sicherheit bei Blockchains darstellt. Die Echtheit der Informationen in der Blockchain wird dadurch sichergestellt und es wird niemand benötigt der die Glaubwürdigkeit bestätigt.&lt;/p&gt;
+
+&lt;h4 id=&quot;wie-kann-man-die-blockchain-benutzen&quot;&gt;Wie kann man die Blockchain benutzen?&lt;/h4&gt;
+
+&lt;p&gt;Jeder Nutzer einer Blockchain erstellt sich einen Account. Ein Account besteht immer aus einer öffentlichen Adresse und einem privaten Schlüssel. Die öffentliche Adresse ist für alle einsehbar und dient als Account, welchem Informationen, Währungen oder anderes zugewiesen werden kann. Mit dem privaten Schlüssel kann man selbst Währungen verschicken, oder Verträge und Informationen signieren. Ähnlich einer Unterschrift, nur um einiges sicherer.&lt;/p&gt;
+
+&lt;h4 id=&quot;wo-wird-die-blockchain-gespeichert&quot;&gt;Wo wird die Blockchain gespeichert?&lt;/h4&gt;
+
+&lt;p&gt;Die Blockchain wird auf Computern auf der ganzen Welt verteilt gespeichert und gleichzeitig fortgeführt. Freiwillige und unabhängige Nutzer können Ihren Computer dafür bereitstellen. Jeder der mithilft die Blockchain zu speichern, zu verteilen und zu erweitern, wird dafür belohnt. Diesen Vorgang nennt man “&lt;a href=&quot;/article/mining&quot;&gt;Mining&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;h4 id=&quot;wer-kontrolliert-blockchain&quot;&gt;Wer kontrolliert Blockchain?&lt;/h4&gt;
+
+&lt;p&gt;Die Nutzer. Die meisten Blockchains sind so aufgebaut, dass es keine zentrale Stelle wie eine Verwaltung oder Bank geben muss. Nach der Entwicklung einer Blockchain kann diese von einem unabhängigen Netzwerk benutzt und verwaltet werden. Entscheidungen zu weiteren Entwicklungen werden dann demokratisch von dem gesamten Netzwerk getroffen. Wichtiger ist noch, dass es keine zentrale Institution gibt, welche alleinig davon profitiert und die Kontrolle über das Netzwerk hat.&lt;/p&gt;
+
+&lt;h4 id=&quot;anonymität-und-kontrolle&quot;&gt;Anonymität und Kontrolle&lt;/h4&gt;
+
+&lt;p&gt;Trotz der Tatsache, dass Blockchains öffentlich sind, bieten sie ein gewisses Maß an Anonymität. Nutzer identifizieren sich meistens nicht über ihren Namen, sondern über eine eindeutige Adresse. Diese Adresse kann nur mit dem Nutzer in Verbindung gebracht werden, wenn er sie preisgibt. Einige Blockchains setzen sogar auf eine komplette Anonymität und erschaffen damit neue Möglichkeiten der Kontrolle über die eigenen, privaten Daten.&lt;/p&gt;
+
+&lt;h4 id=&quot;wo-können-blockchains-eingesetzt-werden&quot;&gt;Wo können Blockchains eingesetzt werden?&lt;/h4&gt;
+
+&lt;p&gt;Blockchains können in nahezu jedem Bereich große Fortschritte ermöglichen, Werte sicherstellen und Vertrauen schaffen. Die Sicherung von Identitäten, das Durchsetzen von Urheberansprüchen, gerechte und betrugssichere Wahlen in der Politik, Steuerung der Energieversorgung oder die sichere Speicherung von Daten, sind nur einige der Bereiche. Einen wichtigen Bereich stellt der Finanzsektor dar, in welchem &lt;a href=&quot;/article/cryptocurrencies&quot;&gt;Kryptowährungen&lt;/a&gt; wieder einen echten Gegenwert zu einer Währung erschaffen können. Eine Blockchain für Künstler, kann dem Künstler wieder seinen verdienten Gegenwert sichern. Oder die Grundbucheintragungen. Schweden arbeitet an Projekten welche die Grundstücksverwaltung von altmodischer Verwaltung auf Papier, auf eine Blockchain umstellen sollen. Diese Umstellung kann jedes Jahr ca. 100 Millionen Euro an Steuergeldern einsparen. Auch Russland startete viele Projekte im Bereich der Blockchain und Präsident Vladimir Putin traf sich mit &lt;a href=&quot;/article/Ethereum&quot;&gt;Ethereum&lt;/a&gt;-Entwickler Vitalik Buterin um zukünftige Anwendungsgebiete zu besprechen. Nahezu alle großen Konzerne forschen mittlerweile daran, wie Blockchains ihre Unternehmen und Produkte verbessern können. Google, Microsoft, IBM, VISA sind nur wenige Beispiele.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“While the Bitcoin hype cycle has gone quiet, Silicon Valley and Wall Street are betting that the underlying technology behind it, the Blockchain, can change… well everything.”&lt;/em&gt;
+–Goldman Sachs&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Leonard Thiele</name></author><summary type="html">Der Begriff Blockchain beschreibt die Technologie, welche durch ein öffentliches und verteiltes Hauptbuch, die Basis für eine sichere Kommunikation und Speicherung von Informationen darstellt. Auf der Grundlage der Blockchain können Kryptowährungen, digitale Verträge oder sogar die Sicherung von Grundbucheinträgen realisiert werden. Die Entwicklung der Blockchain-Technologie hat das Potential die größte technologische Entwicklung der Zukunft zu werden und mehr Einfluss auf unser alltägliches Leben zu haben, als viele andere Technologien wie zum Beispiel weitere Digitalisierung, künstliche Intelligenz oder autonome Fahrzeuge.</summary></entry><entry><title type="html">Wie funktioniert Mining?</title><link href="https://blockinfo.de/article/mining/" rel="alternate" type="text/html" title="Wie funktioniert Mining?" /><published>2017-08-06T00:00:00+00:00</published><updated>2017-08-06T00:00:00+00:00</updated><id>https://blockinfo.de/article/mining</id><content type="html" xml:base="https://blockinfo.de/article/mining/">&lt;p&gt;Mining (englisch für “schürfen”) ist das Berechnen neuer Blöcke einer &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt;. Jede Information, welche in einer Blockchain gespeichert werden soll, wird in Blöcke zusammengefasst und dann an die bestehende Blockchain angehangen. Diese Berechnungen benötigen eine enorme Rechenkapazität und werden von freiwilligen, unabhängigen Minern auf der ganzen Welt verarbeitet.&lt;/p&gt;
 
 &lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
 
 &lt;p&gt;Jede Information, also zum Beispiel eine Überweisung, wird in eine Liste geschrieben. Diese Liste wird ab einer bestimmten Größe in einem Block zusammengefasst. Dieser Block erhält dann noch weitere Informationen, wie zum Beispiel seinen eindeutigen, digitalen “Fingerabdruck”. Dieser Fingerabdruck wird aus allen Informationen des Blocks berechnet. Aufgrund von mathematischen Funktionen ist dieser Fingerabdruck eindeutig und ändert sich sofort, wenn auch nur eine kleine Information des Blockes geändert wird.
-Durch eine Verknüpfung der Blöcke, über diesen Fingerabdruck, wird nicht nur der einzelne Block gesichert, sondern die gesamte Blockkette. Ändert sich in der Kette ein Fingerabdruck, so ändert sich auch der Fingerabdruck aller nachfolgenden Blöcke und die Blockkette ist ungültig.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/article/cryptocurrencies/cryptocurrencies_block.png&quot; alt=&quot;Blockchain Einfach&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Dieses Verfahren erzeugt die hohe Sicherheit der Blockchain und damit das Vertrauen der Benutzer.&lt;/p&gt;
+Durch eine Verknüpfung der Blöcke, über diesen Fingerabdruck, wird nicht nur der einzelne Block gesichert, sondern die gesamte Blockkette. Ändert sich in der Kette ein Fingerabdruck, so ändert sich auch der Fingerabdruck aller nachfolgenden Blöcke und die Blockkette ist ungültig.&lt;br /&gt;
+&lt;br /&gt;
+Dieses Verfahren erzeugt die hohe Sicherheit der &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; und damit das Vertrauen der Benutzer.&lt;/p&gt;
 
 &lt;h4 id=&quot;verteiltes-netzwerk&quot;&gt;Verteiltes Netzwerk&lt;/h4&gt;
 
@@ -20,7 +51,7 @@ Jede Kryptowährung hat ein eigenes, unabhängiges Netzwerk von freiwilligen Min
 &lt;p&gt;Der Rechenaufwand ist sehr hoch und das ist auch so geplant. Hinter jedem berechneten Block steckt eine nachweisbare Arbeit, die Berechnungszeit eines Computers. Treten mehr freiwillige Miner dem Netzwerk bei, wird die Schwierigkeit einen neuen Block zu berechnen sogar automatisch erhöht. Somit wird die Stabilität gewährleistet und die &lt;a href=&quot;/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt; kann nicht durch eine hohe Anzahl an Währungseinheiten schnell entwertet werden.
 Dieses Verfahren, eine hohen Rechenaufwand als Beweis für die Echtheit der berechneten Informationen, nennt man “Proof-of-Work”. Der Beweis über die geleistete Arbeit.&lt;/p&gt;
 
-&lt;p&gt;Durch den hohen Rechenaufwand kann der Prozess praktisch unmöglich manipuliert werden, da man mindestens soviel Rechenkapazität wie die Hälfte aller Miner zusammen benötigen würde, um die Blockchain zu seinen Gunsten zu verändern. Das würde selbst ein Unternehmen wie Google mit allen seinen Rechenzentren nicht schaffen.&lt;/p&gt;
+&lt;p&gt;Durch den hohen Rechenaufwand kann der Prozess praktisch unmöglich manipuliert werden, da man mindestens soviel Rechenkapazität wie die Hälfte aller Miner zusammen benötigen würde, um die &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; zu seinen Gunsten zu verändern. Das würde selbst ein Unternehmen wie Google mit allen seinen Rechenzentren nicht schaffen.&lt;/p&gt;
 
 &lt;p&gt;Im Gegensatz zu diesem Verfahren werden auch Konzepte umgesetzt, welche nicht die geleistete Arbeit als Sicherheit verwenden, sondern den eigenen Anteil an der &lt;a href=&quot;/article/cryptocurrencies&quot;&gt;Kryptowährung&lt;/a&gt;. Alle Überweisungen werden auch berechnet, aber der Rechenaufwand ist sehr viel niedriger. Die Glaubwürdigkeit des Einzelnen durch die Menge seiner Währungseinheiten stellt hier die Sicherheit dar. Dieses Verfahren wird “Proof-of-Stake” genannt.&lt;/p&gt;
 
@@ -74,7 +105,7 @@ Dieses Verfahren, eine hohen Rechenaufwand als Beweis für die Echtheit der bere
 
 &lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
 
-&lt;p&gt;Ethereum basiert auf einer Blockchain und dient zum abwickeln von digitalen Verträgen (Smart Contracts). Ähnlich wie &lt;a href=&quot;/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; braucht Ethereum also auch keine zentrale Verwaltung oder Bank. Ethereum versucht aber nicht nur die finanziellen Geschäfte wieder in unsere Kontrolle zu bringen, sondern auch die Abwicklung von Verträgen und Übereinkommen.
+&lt;p&gt;Ethereum basiert auf einer &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; und dient zum abwickeln von digitalen Verträgen (Smart Contracts). Ähnlich wie &lt;a href=&quot;/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; braucht Ethereum also auch keine zentrale Verwaltung oder Bank. Ethereum versucht aber nicht nur die finanziellen Geschäfte wieder in unsere Kontrolle zu bringen, sondern auch die Abwicklung von Verträgen und Übereinkommen.
 Jeder Ethereum-Nutzer hat wieder eine öffentliche Adresse, die er bekannt geben kann um zum Beispiel Ether zu erhalten. Der private, geheime Schlüssel dient dazu Überweisungen zu verschicken oder Verträge zu signieren, ähnlich einer Unterschrift auf einem Dokument.&lt;/p&gt;
 
 &lt;p&gt;Eine öffentliche Ethereum-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
@@ -89,7 +120,7 @@ Jeder Ethereum-Nutzer hat wieder eine öffentliche Adresse, die er bekannt geben
 
 &lt;p&gt;Ein Smart Contract, also ein “intelligenter Vertrag” bietet die Möglichkeit sichere, schnelle Verträge mit Vertragspartnern zu schließen ohne eine reale Unterschrift, oder einen komplizierten Vorgang auf Papier. Noch wichtiger, es gibt keine zentrale Verwaltung dieser Verträge und kein Dritter profitiert davon.&lt;/p&gt;
 
-&lt;p&gt;Die Blockchain von Ethereum ermöglicht es, nicht nur Überweisungen in die Blockchain zu schreiben, sondern auch kleine Computerprogramme, welche Bedingungen selbständig überprüfen und Anweisungen ausführen. So kann zum Beispiel ein Lizenzkauf für eine Software, der eine monatliche Zahlung vorsieht über einen Smart Contract abgeschlossen werden. Nur wenn die Zahlung geleistet wird, ist die Vertragsbedingung eingehalten und der Vertrag ist gültig.
+&lt;p&gt;Die &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; von Ethereum ermöglicht es, nicht nur Überweisungen in die Blockchain zu schreiben, sondern auch kleine Computerprogramme, welche Bedingungen selbständig überprüfen und Anweisungen ausführen. So kann zum Beispiel ein Lizenzkauf für eine Software, der eine monatliche Zahlung vorsieht über einen Smart Contract abgeschlossen werden. Nur wenn die Zahlung geleistet wird, ist die Vertragsbedingung eingehalten und der Vertrag ist gültig.
 Auch viele andere Bereiche könnten die intelligenten Verträge von Ethereum vereinfachen, wie zum Beispiel die Energieversorgung und dessen Abrechnung, der Vertrieb und die Bezahlung von Apps oder als sichere Bezahlung für andere Leistungen. Auch können viele Andwendungen im Bereich der sicheren und vertraulichen Speicherung von privaten Daten durch Ethereum unterstützt werden.&lt;/p&gt;
 
 &lt;p&gt;Ethereum wurde mit der Technologie der individuellen, digitalen Verträgen ausgestattet um auch Lösung für einige zukünftige Probleme zu sein. Die Individualisierung und Erweiterbarkeit stellen dazu die Grundlage dar.&lt;/p&gt;
@@ -157,10 +188,10 @@ Ether können dann auf Websites wie &lt;a href=&quot;https://anycoindirect.eu/&q
 
 &lt;h4 id=&quot;funktionsweise&quot;&gt;Funktionsweise&lt;/h4&gt;
 
-&lt;p&gt;Bitcoin basiert auf einer Blockchain und dient zur digitalen Zahlungsabwicklung. Jeder Nutzer besitzt eine Adresse und kann Bitcoins über das Internet an andere Bitcoin-Nutzer schicken.
+&lt;p&gt;Bitcoin basiert auf einer &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; und dient zur digitalen Zahlungsabwicklung. Jeder Nutzer besitzt eine Adresse und kann Bitcoins über das Internet an andere Bitcoin-Nutzer schicken.
 Einmal abgeschickte und verifizierte Überweisungen können nicht mehr rückgänging gemacht oder manipuliert werden.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin ist grundsätzlich ersteinmal anonym. Diese Anonymität geht aber teilweise verloren, wenn man Jemandem seine öffentliche Bitcoin-Adresse weitergibt und damit eine Verbindung zwischen seiner Identiät und der Adresse herstellt. Da die gesamte Blockchain öffentlich ist, kann diese Person dann auch in der Blockchain nachschauen, wieviele Bitcoins dieser öffentlichen Adresse zugeordnet sind.
+&lt;p&gt;Bitcoin ist grundsätzlich ersteinmal anonym. Diese Anonymität geht aber teilweise verloren, wenn man Jemandem seine öffentliche Bitcoin-Adresse weitergibt und damit eine Verbindung zwischen seiner Identiät und der Adresse herstellt. Da die gesamte &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; öffentlich ist, kann diese Person dann auch in der Blockchain nachschauen, wieviele Bitcoins dieser öffentlichen Adresse zugeordnet sind.
 Eine öffentliche Bitcoin-Adresse sieht zum Beispiel so aus:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;12UwLL7Krhg3QfPqBUoKofHmHQ4wMtjpM
@@ -182,7 +213,7 @@ Das Verfahren von Bitcoin dient dank seiner öffentlichen Lizenz auch als Grundl
 
 &lt;h4 id=&quot;nachteile&quot;&gt;Nachteile&lt;/h4&gt;
 
-&lt;p&gt;Bitcoin kann nur Überweisungen abbilden. Andere Währungen, wie zum Beispiel &lt;a href=&quot;/article/ethereum&quot;&gt;Ethereum&lt;/a&gt;, können auch noch mehr Informationen in die Blockchain aufnehmen und bieten damit neue Möglichkeiten auch in anderen Bereichen als nur dem Finanzsektor.&lt;/p&gt;
+&lt;p&gt;Bitcoin kann nur Überweisungen abbilden. Andere Währungen, wie zum Beispiel &lt;a href=&quot;/article/ethereum&quot;&gt;Ethereum&lt;/a&gt;, können auch noch mehr Informationen in die &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; aufnehmen und bieten damit neue Möglichkeiten auch in anderen Bereichen als nur dem Finanzsektor.&lt;/p&gt;
 
 &lt;p&gt;Die durschnittliche Blockzeit, die Zeit um einen neuen Block zu berechnen, beträgt bei Bitcoin ca. 10 Minuten. Das ist verhältnismäßig lange und wirft einige Probleme auf. Auch die steigende Anzahl von Überweisungen verzögert die Überweisungsgeschwindigkeit weiter. Somit ist es schwer mit Bitcoin schnelle Überweisungen, wie Bezahlung in einem Geschäft zu tätigen.&lt;/p&gt;
 
@@ -200,15 +231,13 @@ Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währung
 
 &lt;h4 id=&quot;was-ist-aber-der-unterschied-zu-bekannten-währungen-wie-dem-euro&quot;&gt;Was ist aber der Unterschied zu bekannten Währungen, wie dem Euro?&lt;/h4&gt;
 
-&lt;p&gt;Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch Blockchain genannt, ist das wichtigste bei allen Kryptowährungen.&lt;/p&gt;
+&lt;p&gt;Bei Kryptowährungen gibt es keine zentrale Bank, keinen Dritten der unser Konto verwaltet und dann die Überweisungen weiterleitet. Bei den meisten Kryptowährungen sind wir selbst die Bank, Computer auf der ganzen Welt verteilt, berechnen unsere Überweisungen und pflegen eine fortlaufende Liste. Diese Liste von vergangenen Überweisungen, auch &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt; genannt, ist das wichtigste bei allen Kryptowährungen.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/article/cryptocurrencies/bitcoin-transactions.png&quot; alt=&quot;Bitcoin Transaktionen&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;blockchain&quot;&gt;Blockchain&lt;/h4&gt;
 
-&lt;p&gt;Die „Blockkette“ enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von &lt;a href=&quot;/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; zum Beispiel, enthält jeder Bitcoin-Block 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/article/cryptocurrencies/cryptocurrencies_block.png&quot; alt=&quot;Blockchain Einfach&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Die &lt;a href=&quot;/article/blockchain&quot;&gt;“Blockkette”&lt;/a&gt; enthält alle Überweisungen die jemals getätigt wurden, gesammelt in Blöcken. Ein Block ist eine Ansammlung von Überweisungen. Bei dem jetzigen Stand von &lt;a href=&quot;/article/bitcoin&quot;&gt;Bitcoin&lt;/a&gt; zum Beispiel, enthält jeder Bitcoin-Block bis zu 2400 Überweisungen. Zu den Überweisungen gibt es noch einige weitere Informationen, wie den eindeutigen, digitalen Fingerabdruck seines Vorgängers. Ist ein Block voll und abgeschlossen kann er nie wieder verändert werden, da sich sonst sein Fingerabdruck verändern würde. Das bietet die sehr hohe Sicherheit bei Kryptowährungen.&lt;/p&gt;
 
 &lt;h4 id=&quot;mein-konto&quot;&gt;Mein Konto&lt;/h4&gt;
 
@@ -218,7 +247,7 @@ Mit Kryptowährungen kann man Zahlungen tätigen, genau wie mit anderen Währung
 Bei der Erstellung eines Kontos werden zwei Schlüssel erzeugt. Einer dieser Schlüssel ist die öffentliche Adresse, die man weitergeben kann um Überweisungen zu erhalten, ähnlich einer Kontonummer.
 Der zweite Schlüssel ist geheim und darf niemals weitergegeben werden. Er ist der Schlüssel, mit welchem man selbst Überweisungen verschicken kann. Ähnlich des PINs einer Bankkarte. Wer diesen privaten Schlüssel besitzt, ist auch Besitzer des Kontos.&lt;/p&gt;
 
-&lt;p&gt;Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze Blockchain, rechnet alle vergangenen Überweisungen zusammen und zeigt mir dann meinen “Kontostand” an.&lt;/p&gt;
+&lt;p&gt;Möchte ich wissen wieviel Geld ich gerade zur Verfügung habe, öffne ich einfach meine Wallet. Dieses Programm geht dann einmal durch die ganze &lt;a href=&quot;/article/blockchain&quot;&gt;Blockchain&lt;/a&gt;, rechnet alle vergangenen Überweisungen zusammen und zeigt mir dann meinen “Kontostand” an.&lt;/p&gt;
 
 &lt;h4 id=&quot;wie-wird-neues-geld-erzeugt&quot;&gt;Wie wird neues Geld erzeugt?&lt;/h4&gt;
 

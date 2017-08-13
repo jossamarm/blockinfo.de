@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://blockinfo.de/en/article/blockchain/</loc>
+<loc>http://blockinfo.de/en/article/blockchain/</loc>
 <lastmod>2017-08-12T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://blockinfo.de/en/article/mining/</loc>
+<loc>http://blockinfo.de/en/article/mining/</loc>
 <lastmod>2017-08-06T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://blockinfo.de/en/article/ethereum/</loc>
+<loc>http://blockinfo.de/en/article/ethereum/</loc>
 <lastmod>2017-07-23T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://blockinfo.de/en/article/bitcoin/</loc>
+<loc>http://blockinfo.de/en/article/bitcoin/</loc>
 <lastmod>2017-07-23T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://blockinfo.de/en/article/cryptocurrencies/</loc>
+<loc>http://blockinfo.de/en/article/cryptocurrencies/</loc>
 <lastmod>2017-07-20T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://blockinfo.de/en/article/</loc>
+<loc>http://blockinfo.de/en/article/</loc>
 </url>
 <url>
-<loc>https://blockinfo.de/en/</loc>
+<loc>http://blockinfo.de/en/</loc>
 </url>
 </urlset>

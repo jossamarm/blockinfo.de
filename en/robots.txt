@@ -1,7 +1,1 @@
-Sitemap: https://blockinfo.de/en/sitemap.xml
-
-User-agent: Twitterbot
-Disallow:
-
-User-agent: *
-Disallow: /
+Sitemap: http://blockinfo.de/en/sitemap.xml
